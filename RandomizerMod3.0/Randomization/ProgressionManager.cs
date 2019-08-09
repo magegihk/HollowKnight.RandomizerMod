@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,8 +20,8 @@ namespace RandomizerMod.Randomization
             if (addSettings) ApplyDifficultySettings();
             if (RandomizerMod.Instance.Settings.RandomizeRooms)
             {
-                Add("Dream_Nail");
-                Add("Dream_Gate");
+                Add("梦之钉");
+                Add("梦之门");
             }
             RecalculateEssence();
             RecalculateGrubs();

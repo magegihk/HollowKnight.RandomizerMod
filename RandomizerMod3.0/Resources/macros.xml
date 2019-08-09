@@ -1,38 +1,38 @@
-﻿<randomizer>
+<randomizer>
   <!--Macros used in all modes-->
-  <macro name="SHADOWDASH">Mothwing_Cloak + Shade_Cloak</macro>
-  <macro name="SUPERDASH">Crystal_Heart</macro>
-  <macro name="ACID">Isma's_Tear</macro>
-  <macro name="WINGS">Monarch_Wings</macro>
-  <macro name="CLAW">Mantis_Claw</macro>
-  <macro name="CREST">City_Crest</macro>
-  <macro name="SIMPLE1">Simple_Key-Sly | Simple_Key-City | Simple_Key-Basin | Simple_Key-Lurker</macro>
-  <macro name="SIMPLE4">Simple_Key-Sly + Simple_Key-City + Simple_Key-Basin + Simple_Key-Lurker</macro>
-  <macro name="TRAM">Tram_Pass</macro>
-  <macro name="LANTERN">Lumafly_Lantern</macro>
-  <macro name="SHOPKEY">Shopkeeper's_Key</macro>
-  <macro name="ELEGANT">Elegant_Key</macro>
-  <macro name="LOVE">Love_Key</macro>
-  <macro name="BRAND">King's_Brand</macro>
-  <macro name="KINGSOUL">(Queen_Fragment + King_Fragment) | (Queen_Fragment + Void_Heart) | (King_Fragment + Void_Heart)</macro>
-  <macro name="BALDURS">FIREBALL | QUAKE | Grubberfly's_Elegy | Glowing_Womb | Spore_Shroom | Weaversong | ((Mark_of_Pride | Cyclone_Slash) + SPICYSKIPS) | (Dash_Slash + DASH)</macro>
-  <macro name="SHARPSHADOW">Sharp_Shadow + SHADOWDASH</macro>
-  <macro name="DASHMASTER">Dashmaster + DASH</macro>
-  <macro name="INFECTED">(Lurien | Monomon | Herrah) + SPICYSKIPS</macro>
-  <macro name="AWOKEN">Dream_Nail + Dream_Gate + Awoken_Dream_Nail</macro>
+  <macro name="SHADOWDASH">蛾翼披风 + 暗影披风</macro>
+  <macro name="SUPERDASH">水晶之心</macro>
+  <macro name="ACID">伊思玛的眼泪</macro>
+  <macro name="WINGS">帝王之翼</macro>
+  <macro name="CLAW">螳螂爪</macro>
+  <macro name="CREST">城市纹章</macro>
+  <macro name="SIMPLE1">简单钥匙-斯莱 | 简单钥匙-泪水之城 | 简单要是-古老盆地 | 简单钥匙-苍白潜伏者</macro>
+  <macro name="SIMPLE4">简单钥匙-斯莱 + 简单钥匙-泪水之城 + 简单要是-古老盆地 + 简单钥匙-苍白潜伏者</macro>
+  <macro name="TRAM">电车通行证</macro>
+  <macro name="LANTERN">光蝇灯笼</macro>
+  <macro name="SHOPKEY">店主的钥匙</macro>
+  <macro name="ELEGANT">典雅的钥匙</macro>
+  <macro name="LOVE">爱之钥</macro>
+  <macro name="BRAND">王之印记</macro>
+  <macro name="KINGSOUL">(白后碎片 + 白王碎片) | (白后碎片 + 虚空之心) | (白王碎片 + 虚空之心)</macro>
+  <macro name="BALDURS">FIREBALL | QUAKE | 蜕变挽歌 | 发光子宫 | 蘑菇孢子 | 编织者之歌 | ((骄傲印记 | 旋风劈砍) + SPICYSKIPS) | (冲刺劈砍 + DASH)</macro>
+  <macro name="SHARPSHADOW">锋利之影 + SHADOWDASH</macro>
+  <macro name="DASHMASTER">冲刺大师 + DASH</macro>
+  <macro name="INFECTED">(卢瑞恩 | 莫诺蒙 | 赫拉) + SPICYSKIPS</macro>
+  <macro name="AWOKEN">梦之钉 + 梦之门 + 苏醒的梦之钉</macro>
   <macro name="AIRSTALL">FIREBALLSKIPS + (FIREBALL | SCREAM)</macro>
-  <macro name="TUNNEL">SPIKETUNNELS + DASH + (Dashmaster | FIREBALL | SCREAM)</macro>
+  <macro name="TUNNEL">SPIKETUNNELS + DASH + (冲刺大师 | FIREBALL | SCREAM)</macro>
   <macro name="SKIPACID">CLAW + DASH + SUPERDASH + ACIDSKIPS</macro>
-  <macro name="BOSS">(Vengeful_Spirit + Shade_Soul) | (Desolate_Dive + Descending_Dark) | (Howling_Wraiths + Abyss_Shriek) | (FIREBALL + QUAKE) | (SCREAM + QUAKE) | (FIREBALL + SCREAM)</macro>
+  <macro name="BOSS">(复仇之魂 + 暗影之魂) | (荒芜俯冲 + 黑暗降临) | (嚎叫幽灵 + 深渊尖啸) | (FIREBALL + QUAKE) | (SCREAM + QUAKE) | (FIREBALL + SCREAM)</macro>
   <!--Item Rando Exclusive Macros (suffix -I)-->
   <macro name="RIGHTCITY-I">(QUAKE + (TRAM | LANTERN | DARKROOMS)) | (CLAW + (SUPERDASH | WINGS)) | (SHADESKIPS + (CLAW | WINGS | (SPICYSKIPS + FIREBALLSKIPS + FIREBALL + DASH))) | (INFECTED + SPICYSKIPS) | (CREST + ((CLAW + (DASH | WINGS)) | (SUPERDASH + (BALDURS | ACID | CLAW | WINGS | DASH)) | ACID) + ((CLAW + WINGS) | (SIMPLE1 + (CLAW | (WINGS + SPICYSKIPS))))) | (TRAM + (CLAW | (WINGS + (SPICYSKIPS | SHADESKIPS))))</macro>
   <macro name="LEFTCITY-I">RIGHTCITY-I | (CREST + ((CLAW + (DASH | WINGS)) | ACID | (SUPERDASH + (BALDURS | DASH | WINGS | CLAW))))</macro>
 
   <macro name="UPPERRESTINGGROUNDS-I">LANTERN | TRAM | RIGHTCITY-I</macro>
   
-  <macro name="WATERWAYS-I">(LEFTCITY-I + SIMPLE1) | (RIGHTCITY-I + DASH + SPIKETUNNELS + (SPICYSKIPS | CLAW | WINGS) + (Dashmaster | FIREBALL | SCREAM) + (SUPERDASH | ACID))</macro>
+  <macro name="WATERWAYS-I">(LEFTCITY-I + SIMPLE1) | (RIGHTCITY-I + DASH + SPIKETUNNELS + (SPICYSKIPS | CLAW | WINGS) + (冲刺大师 | FIREBALL | SCREAM) + (SUPERDASH | ACID))</macro>
   
-  <macro name="UPPERBASIN-I">RIGHTCITY-I | (WATERWAYS-I + (SUPERDASH | (ACID + DASH + SPIKETUNNELS + (Dashmaster | FIREBALL | SCREAM))))</macro>
+  <macro name="UPPERBASIN-I">RIGHTCITY-I | (WATERWAYS-I + (SUPERDASH | (ACID + DASH + SPIKETUNNELS + (冲刺大师 | FIREBALL | SCREAM))))</macro>
   
   <macro name="DEEPNEST-I">CLAW | (UPPERBASIN-I + TRAM) | (WINGS + (ACID | SHADOWDASH | SHADESKIPS))</macro>
   
@@ -76,7 +76,7 @@
   <macro name="HIVE">Hive_01[left1] | Hive_03_c[left1]</macro>
   
   <macro name="ANCIENTBASIN">Abyss_02[right1] | Abyss_04[bot1] | Abyss_04[right1] | LOWERTRAM</macro>
-  <macro name="ABYSS">Abyss_06_Core[top1] + King's_Brand</macro>
+  <macro name="ABYSS">Abyss_06_Core[top1] + 王之印记</macro>
   
   <macro name="LEFTWATERWAYS">Waterways_01[top1] | ((CLAW | WINGS) + (Waterways_09[left1] | GG_Pipeway[left1])) | (CLAW + SUPERDASH + (Waterways_07[door1] | Waterways_07[right1] | (ACID + Waterways_07[right2]) | Waterways_14[bot2])) | (SPIKETUNNELS + CLAW + DASH + FIREBALL + (SUPERDASH | ACID) + (Abyss_01[right1] | Abyss_01[left3]))</macro>
   <macro name="RIGHTWATERWAYS">(LEFTWATERWAYS + SUPERDASH + (CLAW | (ACID + WINGS))) | (CLAW + (ACID | SUPERDASH) + Waterways_14[bot2]) | Waterways_07[door1] | (ACID + Waterways_07[right2]) | ((CLAW | WINGS) + Waterways_07[right1]) | (SPIKETUNNELS + DASH + FIREBALL + SUPERDASH + CLAW + (Abyss_01[right1] | Abyss_01[left3]))</macro>
@@ -184,7 +184,7 @@
   <macro name="Abyss_09">(Abyss_09[left1] + ((CLAW + DASH) | WINGS)) | (Abyss_09[right1] + Abyss_Lighthouse_room[left1]) | Abyss_09[right2]</macro>
   <macro name="Abyss_19">(Abyss_19[bot1] + (CLAW | WINGS)) | Abyss_19[right1]</macro>
 
-  <macro name="Abyss_01">Abyss_01[left1] | Abyss_01[right1] | (Abyss_01[left3] + CLAW) | ((Abyss_01[left2] | Abyss_01[right2]) + (SUPERDASH | (SPIKETUNNELS + DASH + FIREBALL + Dashmaster)))</macro>
+  <macro name="Abyss_01">Abyss_01[left1] | Abyss_01[right1] | (Abyss_01[left3] + CLAW) | ((Abyss_01[left2] | Abyss_01[right2]) + (SUPERDASH | (SPIKETUNNELS + DASH + FIREBALL + 冲刺大师)))</macro>
   <macro name="Waterways_01">Waterways_01[top1] | Waterways_01[right1] | Waterways_01[bot1] | Waterways_01[left1]</macro>
   <macro name="Waterways_02">Waterways_02[top1] | Waterways_02[top2] | (Waterways_02[top3] + QUAKE) | Waterways_02[bot1] | Waterways_02[bot2]</macro>
   <macro name="Waterways_04">Waterways_04[bot1] | Waterways_04[right1] | Waterways_04[left1] | Waterways_04[left2]</macro>

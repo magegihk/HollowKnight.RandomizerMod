@@ -1,110 +1,110 @@
-﻿<randomizer>
+<randomizer>
   <!--TRANSITIONS-->
   <!--King's Pass-->
   <transition name="Tutorial_01[right1]">
     <sceneName>Tutorial_01</sceneName>
     <doorName>right1</doorName>
-    <areaName>Kings_Pass</areaName>
+    <areaName>国王山道</areaName>
     <logic></logic>
   </transition>
   <transition name="Tutorial_01[top1]">
     <sceneName>Tutorial_01</sceneName>
     <doorName>top1</doorName>
-    <areaName>Kings_Pass</areaName>
+    <areaName>国王山道</areaName>
     <oneWay>2</oneWay>
   </transition>
   <transition name="Tutorial_01[top2]">
     <sceneName>Tutorial_01</sceneName>
     <doorName>top2</doorName>
-    <areaName>Kings_Pass</areaName>
+    <areaName>国王山道</areaName>
     <logic>CLAW</logic>
   </transition>
   <!--Dirtmouth-->
   <transition name="Town[left1]">
     <sceneName>Town</sceneName>
     <doorName>left1</doorName>
-    <areaName>Dirtmouth</areaName>
+    <areaName>德特茅斯</areaName>
     <logic>(DIRTMOUTH + CLAW) | (Town[right1] + SUPERDASH)</logic>
   </transition>
   <transition name="Town[bot1]">
     <sceneName>Town</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Dirtmouth</areaName>
+    <areaName>德特茅斯</areaName>
     <logic>DIRTMOUTH</logic>
   </transition>
   <transition name="Town[right1]">
     <sceneName>Town</sceneName>
     <doorName>right1</doorName>
-    <areaName>Dirtmouth</areaName>
+    <areaName>德特茅斯</areaName>
     <logic>Town[left1] + SUPERDASH + WINGS + (CLAW | SPICYSKIPS)</logic>
   </transition>
   <transition name="Town[top1]">
     <sceneName>Town</sceneName>
     <doorName>top1</doorName>
-    <areaName>Dirtmouth</areaName>
+    <areaName>德特茅斯</areaName>
     <oneWay>2</oneWay>
   </transition>
   <!--Forgotten Crossroads-->
   <transition name="Crossroads_01[top1]">
     <sceneName>Crossroads_01</sceneName>
     <doorName>top1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS</logic>
   </transition>
   <transition name="Crossroads_11_alt[left1]">
     <sceneName>Crossroads_11_alt</sceneName>
     <doorName>left1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS + BALDURS</logic>
     <deadEnd>true</deadEnd>
   </transition>
   <transition name="Crossroads_35[bot1]">
     <sceneName>Crossroads_35</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS + ((ACIDSKIPS + ((CLAW + SUPERDASH) | (WINGS + DASH))) | ACID)</logic>
   </transition>
   <transition name="Crossroads_18[bot1]">
     <sceneName>Crossroads_18</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS + (DASH | WINGS | INFECTED | (CLAW + FIREBALLSKIPS + (FIREBALL | SCREAM)))</logic>
   </transition>
   <transition name="Crossroads_04[right1]">
     <sceneName>Crossroads_04</sceneName>
     <doorName>right1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS + ((SHADESKIPS + (INFECTED | CLAW | WINGS | (FIREBALLSKIPS + SPICYSKIPS + FIREBALL + DASH))) | (CLAW + (WINGS | SUPERDASH)))</logic>
   </transition>
   <transition name="Mines_33[right1]">
     <sceneName>Mines_33</sceneName>
     <doorName>right1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS + LANTERN</logic>
   </transition>
   <transition name="Crossroads_45[right1]">
     <sceneName>Crossroads_45</sceneName>
     <doorName>right1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS</logic>
   </transition>
   <transition name="Crossroads_06[door1]">
     <sceneName>Crossroads_06</sceneName>
     <doorName>door1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS</logic>
   </transition>
   <transition name="Crossroads_02[door1]">
     <sceneName>Crossroads_02</sceneName>
     <doorName>door1</doorName>
-    <areaName>Forgotten_Crossroads</areaName>
+    <areaName>遗忘十字路</areaName>
     <logic>CROSSROADS</logic>
   </transition>
   <!--Black Egg Temple-->
   <transition name="Room_temple[left1]">
     <sceneName>Room_temple</sceneName>
     <doorName>left1</doorName>
-    <areaName>Black_Egg_Temple</areaName>
+    <areaName>黑卵</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -112,45 +112,45 @@
   <transition name="Fungus1_01[right1]">
     <sceneName>Fungus1_01</sceneName>
     <doorName>right1</doorName>
-    <areaName>Greenpath</areaName>
+    <areaName>苍绿之径</areaName>
     <logic>GREENPATH</logic>
   </transition>
   <transition name="Fungus1_20_v02[right1]">
     <sceneName>Fungus1_20_v02</sceneName>
     <doorName>right1</doorName>
-    <areaName>Greenpath</areaName>
+    <areaName>苍绿之径</areaName>
     <logic>GREENPATH</logic>
   </transition>
   <transition name="Fungus1_11[bot1]">
     <sceneName>Fungus1_11</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Greenpath</areaName>
+    <areaName>苍绿之径</areaName>
     <logic>GREENPATH</logic>
   </transition>
   <transition name="Fungus1_13[left1]">
     <sceneName>Fungus1_13</sceneName>
     <doorName>left1</doorName>
-    <areaName>Greenpath</areaName>
+    <areaName>苍绿之径</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
   <transition name="Fungus1_34[door1]">
     <sceneName>Fungus1_34</sceneName>
     <doorName>door1</doorName>
-    <areaName>Greenpath</areaName>
+    <areaName>苍绿之径</areaName>
     <logic>GREENPATH</logic>
   </transition>
   <transition name="Fungus1_25[left1]">
     <sceneName>Fungus1_25</sceneName>
     <doorName>left1</doorName>
-    <areaName>Greenpath</areaName>
+    <areaName>苍绿之径</areaName>
     <logic>GREENPATH + (DASH | ACID | WINGS | SUPERDASH | (FIREBALLSKIPS + (FIREBALL | SCREAM)))</logic>
   </transition>
   <!--Stone Sanctuary-->
   <transition name="Fungus1_35[left1]">
     <sceneName>Fungus1_35</sceneName>
     <doorName>left1</doorName>
-    <areaName>Stone_Sanctuary</areaName>
+    <areaName>石之庇护所</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -158,7 +158,7 @@
   <transition name="Fungus1_26[right1]">
     <sceneName>Fungus1_26</sceneName>
     <doorName>right1</doorName>
-    <areaName>Lake_of_Unn</areaName>
+    <areaName>乌恩之湖</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -166,56 +166,56 @@
   <transition name="Fungus3_01[top1]">
     <sceneName>Fungus3_01</sceneName>
     <doorName>top1</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>LEFTFOGCANYON</logic>
   </transition>
   <transition name="Fungus3_44[bot1]">
     <sceneName>Fungus3_44</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>LEFTFOGCANYON + SHADOWDASH</logic>
   </transition>
   <transition name="Fungus3_44[door1]">
     <sceneName>Fungus3_44</sceneName>
     <doorName>door1</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>LEFTFOGCANYON + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Fungus3_03[left1]">
     <sceneName>Fungus3_03</sceneName>
     <doorName>left1</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>LEFTFOGCANYON + ((CLAW + DASH + SUPERDASH + ACIDSKIPS) | ACID)</logic>
   </transition>
   <transition name="Fungus3_02[right2]">
     <sceneName>Fungus3_02</sceneName>
     <doorName>right2</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>LEFTFOGCANYON</logic>
   </transition>
   <transition name="Fungus3_26[top1]">
     <sceneName>Fungus3_26</sceneName>
     <doorName>top1</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>RIGHTFOGCANYON + (CLAW | WINGS | DASH)</logic>
   </transition>
   <transition name="Fungus3_26[right1]">
     <sceneName>Fungus3_26</sceneName>
     <doorName>right1</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>RIGHTFOGCANYON</logic>
   </transition>
   <transition name="Fungus3_47[door1]">
     <sceneName>Fungus3_47</sceneName>
     <doorName>door1</doorName>
-    <areaName>Fog_Canyon</areaName>
+    <areaName>雾之峡谷</areaName>
     <logic>RIGHTFOGCANYON</logic>
   </transition>
   <!--Teacher's Archives-->
   <transition name="Fungus3_archive[left1]">
     <sceneName>Fungus3_archive</sceneName>
     <doorName>left1</doorName>
-    <areaName>Teachers_Archives</areaName>
+    <areaName>教师档案馆</areaName>
     <deadEnd>true</deadEnd>
     <isolated>true</isolated>
   </transition>
@@ -223,113 +223,113 @@
   <transition name="Fungus2_01[left1]">
     <sceneName>Fungus2_01</sceneName>
     <doorName>left1</doorName>
-    <areaName>Queens_Station</areaName>
+    <areaName>王后驿站</areaName>
     <logic>Fungus2_01[right1]</logic>
   </transition>
   <transition name="Fungus2_01[right1]">
     <sceneName>Fungus2_01</sceneName>
     <doorName>right1</doorName>
-    <areaName>Queens_Station</areaName>
+    <areaName>王后驿站</areaName>
     <logic>Fungus2_01[left1] + (CLAW | DASH | SUPERDASH | WINGS | (FIREBALLSKIPS + (FIREBALL | SCREAM)))</logic>
   </transition>
   <!--Fungal Wastes-->
   <transition name="Fungus2_03[left1]">
     <sceneName>Fungus2_03</sceneName>
     <doorName>left1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>FUNGALWASTES</logic>
   </transition>
   <transition name="Fungus2_33[left1]">
     <sceneName>Fungus2_33</sceneName>
     <doorName>left1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>FUNGALWASTES + ACID</logic>
   </transition>
   <transition name="Fungus2_06[top1]">
     <sceneName>Fungus2_06</sceneName>
     <doorName>top1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>FUNGALWASTES + (ACID | DASH | WINGS)</logic>
   </transition>
   <transition name="Fungus2_21[right1]">
     <sceneName>Fungus2_21</sceneName>
     <doorName>right1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>FUNGALWASTES + CREST + (ACID | SUPERDASH | (CLAW + (WINGS | DASH)))</logic>
   </transition>
   <transition name="Fungus2_17[left1]">
     <sceneName>Fungus2_17</sceneName>
     <doorName>left1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>FUNGALWASTES + (SPICYSKIPS | SHADESKIPS | CLAW | WINGS) + (DASH | CLAW | WINGS)</logic>
   </transition>
   <transition name="Fungus2_17[bot1]">
     <sceneName>Fungus2_17</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>Fungus2_17[left1] | (FUNGALWASTES + (SPICYSKIPS | SHADESKIPS | CLAW | WINGS))</logic>
   </transition>
   <transition name="Fungus2_11[right1]">
     <sceneName>Fungus2_11</sceneName>
     <doorName>right1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>FUNGALWASTES</logic>
   </transition>
   <transition name="Deepnest_01[bot1]">
     <sceneName>Deepnest_01</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Deepnest_01[bot2]">
     <sceneName>Deepnest_01</sceneName>
     <doorName>bot2</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>(FUNGALWASTES + (CLAW | (SHADESKIPS + WINGS))) | Deepnest_01[bot1] | Deepnest_01[left1]</logic>
     <oneWay>1</oneWay>
   </transition>
   <transition name="Deepnest_01[left1]">
     <sceneName>Deepnest_01</sceneName>
     <doorName>left1</doorName>
-    <areaName>Fungal_Wastes</areaName>
+    <areaName>真菌荒地</areaName>
     <logic>(FUNGALWASTES + (CLAW | (SHADESKIPS + WINGS))) | Deepnest_01[bot1]</logic>
   </transition>
   <!--Mantis Village-->
   <transition name="Fungus2_12[left1]">
     <sceneName>Fungus2_12</sceneName>
     <doorName>left1</doorName>
-    <areaName>Mantis_Village</areaName>
+    <areaName>螳螂村</areaName>
     <logic>MANTISOUTSKIRTS + (CLAW | (WINGS + SPICYSKIPS))</logic>
   </transition>
   <transition name="Fungus2_14[top1]">
     <sceneName>Fungus2_14</sceneName>
     <doorName>top1</doorName>
-    <areaName>Mantis_Village</areaName>
+    <areaName>螳螂村</areaName>
     <logic>MANTISVILLAGE + (CLAW | WINGS | (SPICYSKIPS + SHADESKIPS))</logic>
   </transition>
   <transition name="Fungus2_23[right2]">
     <sceneName>Fungus2_23</sceneName>
     <doorName>right2</doorName>
-    <areaName>Mantis_Village</areaName>
+    <areaName>螳螂村</areaName>
     <logic>MANTISOUTSKIRTS + ((CLAW + LEFTWATERWAYS) | (WINGS + (Waterways_01[top1] | Waterways_09[left1])))</logic>
   </transition>
   <transition name="Fungus2_15[left1]">
     <sceneName>Fungus2_15</sceneName>
     <doorName>left1</doorName>
-    <areaName>Mantis_Village</areaName>
+    <areaName>螳螂村</areaName>
     <logic>MANTISVILLAGE + (CLAW | WINGS)</logic>
   </transition>
   <!--Fungal Core-->
   <transition name="Fungus2_29[right1]">
     <sceneName>Fungus2_29</sceneName>
     <doorName>right1</doorName>
-    <areaName>Fungal_Core</areaName>
+    <areaName>真菌核心</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Fungus2_30[bot1]">
     <sceneName>Fungus2_30</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Fungal_Core</areaName>
+    <areaName>真菌核心</areaName>
     <logic>FUNGALWASTES + (CLAW + WINGS)</logic>
     <oneWay>1</oneWay>
   </transition>
@@ -337,107 +337,107 @@
   <transition name="Deepnest_01b[top1]">
     <sceneName>Deepnest_01b</sceneName>
     <doorName>top1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>DEEPNEST + (CLAW + (DASH | WINGS | SUPERDASH))</logic>
   </transition>
   <transition name="Deepnest_01b[top2]">
     <sceneName>Deepnest_01b</sceneName>
     <doorName>top2</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <oneWay>2</oneWay>
   </transition>
   <transition name="Fungus2_25[top2]">
     <sceneName>Fungus2_25</sceneName>
     <doorName>top2</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <isolated>true</isolated>
     <oneWay>2</oneWay>
   </transition>
   <transition name="Fungus2_25[right1]">
     <sceneName>Fungus2_25</sceneName>
     <doorName>right1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>Fungus2_25[top2] + FUNGALWASTES + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Deepnest_33[top2]">
     <sceneName>Deepnest_33</sceneName>
     <doorName>top2</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>DEEPNEST + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Deepnest_33[top1]">
     <sceneName>Deepnest_33</sceneName>
     <doorName>top1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Deepnest_17[left1]">
     <sceneName>Deepnest_17</sceneName>
     <doorName>left1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>Deepnest_01b[top1] | Deepnest_01b[top2] | (CLAW + (Fungus2_25[top2] | Fungus2_25[right1]))</logic>
   </transition>
   <transition name="Deepnest_35[top1]">
     <sceneName>Deepnest_35</sceneName>
     <doorName>top1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>DEEPNEST + (DARKROOMS | LANTERN) + CLAW</logic>
   </transition>
   <transition name="Deepnest_42[top1]">
     <sceneName>Deepnest_42</sceneName>
     <doorName>top1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>DEEPNEST + (LANTERN | DARKROOMS) + CLAW + (WINGS | SPICYSKIPS)</logic>
   </transition>
   <transition name="Deepnest_39[door1]">
     <sceneName>Deepnest_39</sceneName>
     <doorName>door1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>DEEPNEST + (LANTERN | DARKROOMS) + ((CLAW + (DASH | SPICYSKIPS)) | (WINGS + SPICYSKIPS))</logic>
   </transition>
   <transition name="Deepnest_41[left1]">
     <sceneName>Deepnest_41</sceneName>
     <doorName>left1</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <logic>DEEPNEST + (LANTERN | DARKROOMS) + (CLAW | (WINGS + SPICYSKIPS))</logic>
   </transition>
   <transition name="Deepnest_41[left2]">
     <sceneName>Deepnest_41</sceneName>
     <doorName>left2</doorName>
-    <areaName>Deepnest</areaName>
+    <areaName>深邃巢穴</areaName>
     <isolated>true</isolated>
   </transition>
   <!--Failed Tramway-->
   <transition name="Deepnest_14[bot1]">
     <sceneName>Deepnest_14</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Failed_Tramway</areaName>
+    <areaName>废弃电车轨道</areaName>
     <logic>Deepnest_14[bot2] | Deepnest_26[bot1]</logic>
   </transition>
   <transition name="Deepnest_14[bot2]">
     <sceneName>Deepnest_14</sceneName>
     <doorName>bot2</doorName>
-    <areaName>Failed_Tramway</areaName>
+    <areaName>废弃电车轨道</areaName>
     <logic>Deepnest_14[bot1] | Deepnest_26[bot1]</logic>
   </transition>
   <transition name="Deepnest_14[right1]">
     <sceneName>Deepnest_14</sceneName>
     <doorName>right1</doorName>
-    <areaName>Failed_Tramway</areaName>
+    <areaName>废弃电车轨道</areaName>
     <logic>Deepnest_26[bot1] | ((Deepnest_14[bot1] | Deepnest_14[bot2]) + (CLAW | DASH | WINGS))</logic>
     <deadEnd>true</deadEnd>
   </transition>
   <transition name="Deepnest_26[bot1]">
     <sceneName>Deepnest_26</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Failed_Tramway</areaName>
+    <areaName>废弃电车轨道</areaName>
     <logic>(Deepnest_14[bot1] | Deepnest_14[bot2]) + (CLAW | DASH | WINGS)</logic>
   </transition>
   <!--Weaver's Den-->
   <transition name="Deepnest_45_v02[left1]">
     <sceneName>Deepnest_45_v02</sceneName>
     <doorName>left1</doorName>
-    <areaName>Weavers_Den</areaName>
+    <areaName>编织者巢穴</areaName>
     <deadEnd>true</deadEnd>
     <isolated>true</isolated>
   </transition>
@@ -445,19 +445,19 @@
   <transition name="Deepnest_10[door1]">
     <sceneName>Deepnest_10</sceneName>
     <doorName>door1</doorName>
-    <areaName>Distant_Village</areaName>
+    <areaName>遥远的村庄</areaName>
     <logic>Deepnest_10[right2] + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Deepnest_10[right2]">
     <sceneName>Deepnest_10</sceneName>
     <doorName>right2</doorName>
-    <areaName>Distant_Village</areaName>
+    <areaName>遥远的村庄</areaName>
     <logic>Deepnest_10[door1]</logic>
   </transition>
   <transition name="Deepnest_10[right3]">
     <sceneName>Deepnest_10</sceneName>
     <doorName>right3</doorName>
-    <areaName>Distant_Village</areaName>
+    <areaName>遥远的村庄</areaName>
     <logic>Deepnest_10[door1] | Deepnest_10[right2]</logic>
     <deadEnd>true</deadEnd>
   </transition>
@@ -465,7 +465,7 @@
   <transition name="Deepnest_Spider_Town[left1]">
     <sceneName>Deepnest_Spider_Town</sceneName>
     <doorName>left1</doorName>
-    <areaName>Beasts_Den</areaName>
+    <areaName>野兽巢穴</areaName>
     <deadEnd>true</deadEnd>
     <isolated>true</isolated>
   </transition>
@@ -473,63 +473,63 @@
   <transition name="Deepnest_East_03[left1]">
     <sceneName>Deepnest_East_03</sceneName>
     <doorName>left1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>CENTRALKINGDOMSEDGE</logic>
   </transition>
   <transition name="Abyss_03_c[right1]">
     <sceneName>Abyss_03_c</sceneName>
     <doorName>right1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>LOWERKINGDOMSEDGE</logic>
   </transition>
   <transition name="Deepnest_East_01[right1]">
     <sceneName>Deepnest_East_01</sceneName>
     <doorName>right1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Deepnest_East_02[top1]">
     <sceneName>Deepnest_East_02</sceneName>
     <doorName>top1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>(LOWERKINGDOMSEDGE + (CLAW | WINGS))</logic>
   </transition>
   <transition name="Deepnest_East_02[bot2]">
     <sceneName>Deepnest_East_02</sceneName>
     <doorName>bot2</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>LOWERKINGDOMSEDGE + (CLAW | WINGS) + QUAKE + (ACID | (ACIDSKIPS + CLAW + SUPERDASH))</logic>
     <deadEnd>true</deadEnd>
   </transition>
   <transition name="Deepnest_East_07[left2]">
     <sceneName>Deepnest_East_07</sceneName>
     <doorName>left2</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>Deepnest_East_09[right1] | (CENTRALKINGDOMSEDGE + (CLAW | WINGS))</logic>
   </transition>
   <transition name="Deepnest_East_09[left1]">
     <sceneName>Deepnest_East_09</sceneName>
     <doorName>left1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>Deepnest_East_09[right1] | (CENTRALKINGDOMSEDGE + (CLAW | WINGS))</logic>
     <deadEnd>true</deadEnd>
   </transition>
   <transition name="Deepnest_East_09[right1]">
     <sceneName>Deepnest_East_09</sceneName>
     <doorName>right1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>CENTRALKINGDOMSEDGE + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Deepnest_East_12[right1]">
     <sceneName>Deepnest_East_12</sceneName>
     <doorName>right1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <logic>CENTRALKINGDOMSEDGE + ((CLAW + WINGS) | ((CLAW | WINGS) + SPICYSKIPS))</logic>
   </transition>
   <transition name="GG_Lurker[left1]">
     <sceneName>GG_Lurker</sceneName>
     <doorName>left1</doorName>
-    <areaName>Kingdoms_Edge</areaName>
+    <areaName>王国边缘</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -537,7 +537,7 @@
   <transition name="Deepnest_East_Hornet[left1]">
     <sceneName>Deepnest_East_Hornet</sceneName>
     <doorName>left1</doorName>
-    <areaName>Cast_Off_Shell</areaName>
+    <areaName>遗弃外壳</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -545,32 +545,32 @@
   <transition name="Room_Colosseum_01[left1]">
     <sceneName>Room_Colosseum_01</sceneName>
     <doorName>left1</doorName>
-    <areaName>Colosseum</areaName>
+    <areaName>愚人斗兽场</areaName>
     <logic>Room_Colosseum_Spectate[right1] + CLAW</logic>
   </transition>
   <transition name="Room_Colosseum_Spectate[right1]">
     <sceneName>Room_Colosseum_Spectate</sceneName>
     <doorName>right1</doorName>
-    <areaName>Colosseum</areaName>
+    <areaName>愚人斗兽场</areaName>
     <logic>Room_Colosseum_01[left1] + CLAW</logic>
   </transition>
   <!--Hive-->
   <transition name="Hive_01[left1]">
     <sceneName>Hive_01</sceneName>
     <doorName>left1</doorName>
-    <areaName>Hive</areaName>
+    <areaName>蜂巢</areaName>
     <logic>HIVE + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Hive_03_c[left1]">
     <sceneName>Hive_03_c</sceneName>
     <doorName>left1</doorName>
-    <areaName>Hive</areaName>
+    <areaName>蜂巢</areaName>
     <logic>HIVE + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Hive_03[top1]">
     <sceneName>Hive_03</sceneName>
     <doorName>top1</doorName>
-    <areaName>Hive</areaName>
+    <areaName>蜂巢</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -578,26 +578,26 @@
   <transition name="Abyss_02[right1]">
     <sceneName>Abyss_02</sceneName>
     <doorName>right1</doorName>
-    <areaName>Ancient_Basin</areaName>
+    <areaName>古老盆地</areaName>
     <logic>ANCIENTBASIN + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Abyss_04[bot1]">
     <sceneName>Abyss_04</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Ancient_Basin</areaName>
+    <areaName>古老盆地</areaName>
     <logic>ANCIENTBASIN</logic>
   </transition>
   <transition name="Abyss_04[right1]">
     <sceneName>Abyss_04</sceneName>
     <doorName>right1</doorName>
-    <areaName>Ancient_Basin</areaName>
+    <areaName>古老盆地</areaName>
     <logic>ANCIENTBASIN + CLAW + WINGS</logic>
   </transition>
   <!--Palace Grounds-->
   <transition name="Abyss_05[left1]">
     <sceneName>Abyss_05</sceneName>
     <doorName>left1</doorName>
-    <areaName>Palace_Grounds</areaName>
+    <areaName>宫殿广场</areaName>
     <deadEnd>true</deadEnd>
     <isolated>true</isolated>
   </transition>
@@ -605,7 +605,7 @@
   <transition name="Abyss_06_Core[top1]">
     <sceneName>Abyss_06_Core</sceneName>
     <doorName>top1</doorName>
-    <areaName>Abyss</areaName>
+    <areaName>深渊</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -613,218 +613,218 @@
   <transition name="Waterways_01[top1]">
     <sceneName>Waterways_01</sceneName>
     <doorName>top1</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>LEFTWATERWAYS + CLAW + LEFTCITY + SIMPLE1</logic>
   </transition>
   <transition name="GG_Pipeway[left1]">
     <sceneName>GG_Pipeway</sceneName>
     <doorName>left1</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>LEFTWATERWAYS + (CLAW | WINGS) + QUAKE</logic>
   </transition>
   <transition name="Waterways_09[left1]">
     <sceneName>Waterways_09</sceneName>
     <doorName>left1</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>LEFTWATERWAYS + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Abyss_01[right1]">
     <sceneName>Abyss_01</sceneName>
     <doorName>right1</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>(Abyss_01[left3] + CLAW) | (LEFTWATERWAYS + (CLAW | (WINGS + SPICYSKIPS))) | (RIGHTWATERWAYS + SUPERDASH + CLAW)</logic>
   </transition>
   <transition name="Abyss_01[left3]">
     <sceneName>Abyss_01</sceneName>
     <doorName>left3</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>Abyss_01[right1] | (LEFTWATERWAYS + (CLAW | (WINGS + SPICYSKIPS) | SUPERDASH | (SPIKETUNNELS + ACID + DASH + FIREBALL))) | (RIGHTWATERWAYS + SUPERDASH + CLAW)</logic>
   </transition>
   <transition name="Waterways_07[door1]">
     <sceneName>Waterways_07</sceneName>
     <doorName>door1</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>RIGHTWATERWAYS + CLAW</logic>
   </transition>
   <transition name="Waterways_14[bot2]">
     <sceneName>Waterways_14</sceneName>
     <doorName>bot2</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Waterways_07[right1]">
     <sceneName>Waterways_07</sceneName>
     <doorName>right1</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>RIGHTWATERWAYS + CLAW + LEFTWATERWAYS</logic>
   </transition>
   <transition name="Waterways_07[right2]">
     <sceneName>Waterways_07</sceneName>
     <doorName>right2</doorName>
-    <areaName>Royal_Waterways</areaName>
+    <areaName>皇家水道</areaName>
     <logic>RIGHTWATERWAYS + ((CLAW + DASH + SUPERDASH + ACIDSKIPS) | ACID)</logic>
   </transition>
   <!--Isma's Grove-->
   <transition name="Waterways_13[left1]">
     <sceneName>Waterways_13</sceneName>
     <doorName>left1</doorName>
-    <areaName>Ismas_Grove</areaName>
+    <areaName>伊思玛的树林</areaName>
     <logic>Waterways_13[left2] + CLAW + (ACID | (DASH + SUPERDASH + ACIDSKIPS))</logic>
   </transition>
   <transition name="Waterways_13[left2]">
     <sceneName>Waterways_13</sceneName>
     <doorName>left2</doorName>
-    <areaName>Ismas_Grove</areaName>
+    <areaName>伊思玛的树林</areaName>
     <logic>Waterways_13[left1] + CLAW + (ACID | (DASH + SUPERDASH + ACIDSKIPS))</logic>
   </transition>
   <!--Junk Pit-->
   <transition name="GG_Waterways[right1]">
     <sceneName>GG_Waterways</sceneName>
     <doorName>right1</doorName>
-    <areaName>Junk_Pit</areaName>
+    <areaName>垃圾坑</areaName>
     <logic>Room_GG_Shortcut[top1] + CLAW + (WINGS | DASH | SUPERDASH)</logic>
   </transition>
   <transition name="Room_GG_Shortcut[top1]">
     <sceneName>Room_GG_Shortcut</sceneName>
     <doorName>top1</doorName>
-    <areaName>Junk_Pit</areaName>
+    <areaName>垃圾坑</areaName>
     <logic>GG_Waterways[right1] + CLAW + (DASH | SUPERDASH | WINGS)</logic>
   </transition>
   <!--City of Tears-->
   <transition name="Ruins2_04[left2]">
     <sceneName>Ruins2_04</sceneName>
     <doorName>left2</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <logic>RIGHTCITY</logic>
   </transition>
   <transition name="Ruins2_04[door_Ruin_Elevator]">
     <sceneName>Ruins2_04</sceneName>
     <doorName>door_Ruin_Elevator</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <logic>RIGHTCITY + (CLAW | WINGS) + SIMPLE4</logic>
   </transition>
   <transition name="Ruins2_04[right1]">
     <sceneName>Ruins2_04</sceneName>
     <doorName>right1</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <logic>RIGHTCITY + (CLAW | WINGS | DASH)</logic>
   </transition>
   <transition name="Ruins2_04[right2]">
     <sceneName>Ruins2_04</sceneName>
     <doorName>right2</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <logic>RIGHTCITY</logic>
   </transition>
   <transition name="Ruins1_01[left1]">
     <sceneName>Ruins1_01</sceneName>
     <doorName>left1</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <logic>(LEFTCITY + (CLAW | WINGS)) | LEFTELEVATOR</logic>
   </transition>
   <transition name="Ruins1_05b[bot1]">
     <sceneName>Ruins1_05b</sceneName>
     <doorName>bot1</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <logic>LEFTCITY + SIMPLE1</logic>
   </transition>
   <transition name="Ruins_House_03[left2]">
     <sceneName>Ruins_House_03</sceneName>
     <doorName>left2</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Ruins1_04[bot1]">
     <sceneName>Ruins1_04</sceneName>
     <doorName>bot1</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Ruins1_05[right1]">
     <sceneName>Ruins1_05</sceneName>
     <doorName>right1</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <logic>LEFTCITY + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Ruins1_31[right1]">
     <sceneName>Ruins1_31</sceneName>
     <doorName>right1</doorName>
-    <areaName>City_of_Tears</areaName>
+    <areaName>泪水之城</areaName>
     <isolated>true</isolated>
   </transition>
   <!--Soul Sanctum-->
   <transition name="Ruins1_23[left1]">
     <sceneName>Ruins1_23</sceneName>
     <doorName>left1</doorName>
-    <areaName>Soul_Sanctum</areaName>
+    <areaName>灵魂圣所</areaName>
     <logic>Ruins1_09[left1] + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Ruins1_09[left1]">
     <sceneName>Ruins1_09</sceneName>
     <doorName>left1</doorName>
-    <areaName>Soul_Sanctum</areaName>
+    <areaName>灵魂圣所</areaName>
     <logic>Ruins1_23[left1]</logic>
   </transition>
   <!--Pleasure House-->
   <transition name="Ruins_Bathhouse[right1]">
     <sceneName>Ruins_Bathhouse</sceneName>
     <doorName>right1</doorName>
-    <areaName>Pleasure_House</areaName>
+    <areaName>欢乐之屋</areaName>
     <logic>Ruins_Elevator[left1]</logic>
   </transition>
   <transition name="Ruins_Elevator[left1]">
     <sceneName>Ruins_Elevator</sceneName>
     <doorName>left1</doorName>
-    <areaName>Pleasure_House</areaName>
+    <areaName>欢乐之屋</areaName>
     <logic>Ruins_Bathhouse[right1]</logic>
   </transition>
   <!--King's Station-->
   <transition name="Ruins2_06[left1]">
     <sceneName>Ruins2_06</sceneName>
     <doorName>left1</doorName>
-    <areaName>Kings_Station</areaName>
+    <areaName>国王驿站</areaName>
     <logic>RIGHTELEVATOR</logic>
   </transition>
   <transition name="Ruins2_06[left2]">
     <sceneName>Ruins2_06</sceneName>
     <doorName>left2</doorName>
-    <areaName>Kings_Station</areaName>
+    <areaName>国王驿站</areaName>
     <logic>RIGHTELEVATOR</logic>
   </transition>
   <transition name="Ruins2_07[right1]">
     <sceneName>Ruins2_07</sceneName>
     <doorName>right1</doorName>
-    <areaName>Kings_Station</areaName>
+    <areaName>国王驿站</areaName>
     <logic>RIGHTELEVATOR</logic>
   </transition>
   <transition name="Ruins2_07[top1]">
     <sceneName>Ruins2_07</sceneName>
     <doorName>top1</doorName>
-    <areaName>Kings_Station</areaName>
+    <areaName>国王驿站</areaName>
     <logic>RIGHTELEVATOR + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Ruins2_10b[left1]">
     <sceneName>Ruins2_10b</sceneName>
     <doorName>left1</doorName>
-    <areaName>Kings_Station</areaName>
+    <areaName>国王驿站</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Ruins2_10b[right1]">
     <sceneName>Ruins2_10b</sceneName>
     <doorName>right1</doorName>
-    <areaName>Kings_Station</areaName>
+    <areaName>国王驿站</areaName>
     <logic>RIGHTELEVATOR + CLAW</logic>
   </transition>
   <!--Tower of Love-->
   <transition name="Ruins2_11_b[right1]">
     <sceneName>Ruins2_11_b</sceneName>
     <doorName>right1</doorName>
-    <areaName>Tower_of_Love</areaName>
+    <areaName>爱之塔</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Ruins2_11_b[bot1]">
     <sceneName>Ruins2_11_b</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Tower_of_Love</areaName>
+    <areaName>爱之塔</areaName>
     <logic>Ruins2_11_b[right1]</logic>
     <deadEnd>true</deadEnd>
   </transition>
@@ -832,39 +832,39 @@
   <transition name="RestingGrounds_02[top1]">
     <sceneName>RestingGrounds_02</sceneName>
     <doorName>top1</doorName>
-    <areaName>Resting_Grounds</areaName>
+    <areaName>安息之地</areaName>
     <oneWay>2</oneWay>
   </transition>
   <transition name="RestingGrounds_06[left1]">
     <sceneName>RestingGrounds_06</sceneName>
     <doorName>left1</doorName>
-    <areaName>Resting_Grounds</areaName>
+    <areaName>安息之地</areaName>
     <logic>LOWERRESTINGGROUNDS</logic>
   </transition>
   <transition name="RestingGrounds_05[right1]">
     <sceneName>RestingGrounds_05</sceneName>
     <doorName>right1</doorName>
-    <areaName>Resting_Grounds</areaName>
+    <areaName>安息之地</areaName>
     <logic>MEDIUMESSENCE</logic>
   </transition>
   <!--Blue Lake-->
   <transition name="Crossroads_50[left1]">
     <sceneName>Crossroads_50</sceneName>
     <doorName>left1</doorName>
-    <areaName>Blue_Lake</areaName>
+    <areaName>蓝湖</areaName>
     <logic>Crossroads_50[right1] + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Crossroads_50[right1]">
     <sceneName>Crossroads_50</sceneName>
     <doorName>right1</doorName>
-    <areaName>Blue_Lake</areaName>
+    <areaName>蓝湖</areaName>
     <logic>Crossroads_50[left1]</logic>
   </transition>
   <!--Spirits' Glade-->
   <transition name="RestingGrounds_08[left1]">
     <sceneName>RestingGrounds_08</sceneName>
     <doorName>left1</doorName>
-    <areaName>Spirits_Glade</areaName>
+    <areaName>灵魂沼地</areaName>
     <isolated>true</isolated>
     <deadEnd>true</deadEnd>
   </transition>
@@ -872,70 +872,70 @@
   <transition name="Mines_01[left1]">
     <sceneName>Mines_01</sceneName>
     <doorName>left1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Mines_02[left1]">
     <sceneName>Mines_02</sceneName>
     <doorName>left1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <logic>CRYSTALPEAK</logic>
   </transition>
   <transition name="Mines_10[left1]">
     <sceneName>Mines_10</sceneName>
     <doorName>left1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <logic>CRYSTALPEAK + CLAW + SUPERDASH</logic>
   </transition>
   <transition name="Mines_28[bot1]">
     <sceneName>Mines_28</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <logic>(CRYSTALPEAK + (LANTERN | DARKROOMS)) | Mines_28[door1]</logic>
     <oneWay>1</oneWay>
   </transition>
   <transition name="Mines_28[door1]">
     <sceneName>Mines_28</sceneName>
     <doorName>door1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <logic>CRYSTALPEAK + (LANTERN | DARKROOMS) + (SUPERDASH | (WINGS + DASH))</logic>
   </transition>
   <transition name="Mines_23[right1]">
     <sceneName>Mines_23</sceneName>
     <doorName>right1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <logic>CRYSTALPEAK + (CLAW | (WINGS + (DASH | FIREBALL | SCREAM) + SPIKETUNNELS))</logic>
   </transition>
   <transition name="Mines_23[top1]">
     <sceneName>Mines_23</sceneName>
     <doorName>top1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <oneWay>2</oneWay>
   </transition>
   <transition name="Mines_13[top1]">
     <sceneName>Mines_13</sceneName>
     <doorName>top1</doorName>
-    <areaName>Crystal_Peak</areaName>
+    <areaName>水晶山峰</areaName>
     <oneWay>2</oneWay>
   </transition>
   <!--Hallownests Crown-->
   <transition name="Mines_25[left1]">
     <sceneName>Mines_25</sceneName>
     <doorName>left1</doorName>
-    <areaName>Hallownests_Crown</areaName>
+    <areaName>圣巢之冠</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Mines_34[bot2]">
     <sceneName>Mines_34</sceneName>
     <doorName>bot2</doorName>
-    <areaName>Hallownests_Crown</areaName>
+    <areaName>圣巢之冠</areaName>
     <logic>Mines_25[left1] + CLAW + (WINGS | DASH)</logic>
     <oneWay>1</oneWay>
   </transition>
   <transition name="Mines_34[left1]">
     <sceneName>Mines_34</sceneName>
     <doorName>left1</doorName>
-    <areaName>Hallownests_Crown</areaName>
+    <areaName>圣巢之冠</areaName>
     <logic>Mines_25[left1] + CLAW + (WINGS | DASH) + ((WINGS + DASH) | SUPERDASH)</logic>
     <oneWay>1</oneWay>
   </transition>
@@ -943,40 +943,40 @@
   <transition name="Fungus1_28[left2]">
     <sceneName>Fungus1_28</sceneName>
     <doorName>left2</doorName>
-    <areaName>Howling_Cliffs</areaName>
+    <areaName>呼啸悬崖</areaName>
     <logic>HOWLINGCLIFFS</logic>
   </transition>
   <transition name="Cliffs_02[bot1]">
     <sceneName>Cliffs_02</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Howling_Cliffs</areaName>
+    <areaName>呼啸悬崖</areaName>
     <isolated>true</isolated>
   </transition>
   <transition name="Cliffs_02[bot2]">
     <sceneName>Cliffs_02</sceneName>
     <doorName>bot2</doorName>
-    <areaName>Howling_Cliffs</areaName>
+    <areaName>呼啸悬崖</areaName>
     <logic>HOWLINGCLIFFS</logic>
     <oneWay>1</oneWay>
   </transition>
   <transition name="Cliffs_02[right1]">
     <sceneName>Cliffs_02</sceneName>
     <doorName>right1</doorName>
-    <areaName>Howling_Cliffs</areaName>
+    <areaName>呼啸悬崖</areaName>
     <logic>HOWLINGCLIFFS + (SUPERDASH | (WINGS + DASH))</logic>
     <oneWay>1</oneWay>
   </transition>
   <transition name="Cliffs_02[left2]">
     <sceneName>Cliffs_02</sceneName>
     <doorName>left2</doorName>
-    <areaName>Howling_Cliffs</areaName>
+    <areaName>呼啸悬崖</areaName>
     <logic>HOWLINGCLIFFS + CLAW + WINGS</logic>
   </transition>
   <!--Stag Nest-->
   <transition name="Cliffs_03[right1]">
     <sceneName>Cliffs_03</sceneName>
     <doorName>right1</doorName>
-    <areaName>Stag_Nest</areaName>
+    <areaName>鹿角虫巢穴</areaName>
     <logic>STAGNEST</logic>
     <deadEnd>true</deadEnd>
   </transition>
@@ -984,53 +984,53 @@
   <transition name="Fungus3_34[right1]">
     <sceneName>Fungus3_34</sceneName>
     <doorName>right1</doorName>
-    <areaName>Queens_Gardens</areaName>
+    <areaName>王后花园</areaName>
     <logic>TOPRIGHTQG</logic>
   </transition>
   <transition name="Fungus3_34[top1]">
     <sceneName>Fungus3_34</sceneName>
     <doorName>top1</doorName>
-    <areaName>Queens_Gardens</areaName>
+    <areaName>王后花园</areaName>
     <logic>TOPRIGHTQG + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Fungus3_39[right1]">
     <sceneName>Fungus3_39</sceneName>
     <doorName>right1</doorName>
-    <areaName>Queens_Gardens</areaName>
+    <areaName>王后花园</areaName>
     <logic>BOTRIGHTQG + (DASH | WINGS)</logic>
     <deadEnd>true</deadEnd>
   </transition>
   <transition name="Deepnest_43[bot1]">
     <sceneName>Deepnest_43</sceneName>
     <doorName>bot1</doorName>
-    <areaName>Queens_Gardens</areaName>
+    <areaName>王后花园</areaName>
     <logic>(BOTRIGHTQG | TOPLEFTQG) + (CLAW | WINGS)</logic>
   </transition>
   <transition name="Fungus3_22[right1]">
     <sceneName>Fungus3_22</sceneName>
     <doorName>right1</doorName>
-    <areaName>Queens_Gardens</areaName>
+    <areaName>王后花园</areaName>
     <logic>TOPLEFTQG + DASH + (CLAW | WINGS)</logic>
   </transition>
   <!--Mounds-->
   <transition name="Crossroads_ShamanTemple[left1]">
     <sceneName>Crossroads_ShamanTemple</sceneName>
     <doorName>left1</doorName>
-    <areaName>Ancestral_Mound</areaName>
+    <areaName>祖先山丘</areaName>
     <deadEnd>true</deadEnd>
     <isolated>true</isolated>
   </transition>
   <transition name="Room_Fungus_Shaman[left1]">
     <sceneName>Room_Fungus_Shaman</sceneName>
     <doorName>left1</doorName>
-    <areaName>Overgrown_Mound</areaName>
+    <areaName>长满植物的山丘</areaName>
     <deadEnd>true</deadEnd>
     <isolated>true</isolated>
   </transition>
   <transition name="Mines_35[left1]">
     <sceneName>Mines_35</sceneName>
     <doorName>left1</doorName>
-    <areaName>Crystallized_Mound</areaName>
+    <areaName>结晶山丘</areaName>
     <deadEnd>true</deadEnd>
     <isolated>true</isolated>
   </transition>

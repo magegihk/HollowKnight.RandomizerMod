@@ -346,4 +346,8 @@
     <EmbeddedResource Include="Resources\ShopIcons\Geo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(TargetPath)" "D:\SteamLibrary\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods"
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>

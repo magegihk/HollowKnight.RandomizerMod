@@ -1,5 +1,5 @@
-﻿<randomizer>
-  <shop name="Sly">
+<randomizer>
+  <shop name="斯莱">
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
     <itemLogic></itemLogic>
@@ -7,7 +7,7 @@
     <roomLogic>Room_ruinhouse[left1] + Room_shop[left1]</roomLogic>
     <requiredPlayerDataBool></requiredPlayerDataBool>
   </shop>
-  <shop name="Sly_(Key)">
+  <shop name="斯莱的简单钥匙">
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
     <itemLogic>SHOPKEY</itemLogic>
@@ -15,7 +15,7 @@
     <roomLogic>Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY</roomLogic>
     <requiredPlayerDataBool>gaveSlykey</requiredPlayerDataBool>
   </shop>
-  <shop name="Iselda">
+  <shop name="伊塞尔达">
     <sceneName>Room_mapper</sceneName>
     <objectName>Shop Menu</objectName>
     <itemLogic></itemLogic>
@@ -23,7 +23,7 @@
     <roomLogic>Room_mapper[left1]</roomLogic>
     <requiredPlayerDataBool></requiredPlayerDataBool>
   </shop>
-  <shop name="Salubra">
+  <shop name="萨鲁巴">
     <sceneName>Room_Charm_Shop</sceneName>
     <objectName>Shop Menu</objectName>
     <itemLogic>CLAW | DASH | WINGS | SUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS</itemLogic>
@@ -31,7 +31,7 @@
     <roomLogic>Room_Charm_Shop[left1]</roomLogic>
     <requiredPlayerDataBool></requiredPlayerDataBool>
   </shop>
-  <shop name="Leg_Eater">
+  <shop name="食腿者">
     <sceneName>Fungus2_26</sceneName>
     <objectName>Shop Menu</objectName>
     <itemLogic>CLAW | DASH | WINGS | ACID | INFECTED | ((FIREBALL | (SCREAM + BALDURS)) + FIREBALLSKIPS) | (SUPERDASH + BALDURS)</itemLogic>

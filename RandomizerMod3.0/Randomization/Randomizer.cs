@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
@@ -143,9 +143,9 @@ namespace RandomizerMod.Randomization
             {
                 TransitionDef def = LogicManager.GetTransitionDef(transition);
                 string areaName = def.areaName;
-                if (areaName == "Kings_Pass") continue;
-                if (new List<string> { "Dirtmouth", "Forgotten_Crossroads", "Resting_Grounds" }.Contains(areaName)) areaName = "Kings_Station";
-                if (new List<string> { "Ancient_Basin", "Kingdoms_Edge" }.Contains(areaName)) areaName = "Deepnest";
+                if (areaName == "国王山道") continue;
+                if (new List<string> { "德特茅斯", "遗忘十字路", "安息之地" }.Contains(areaName)) areaName = "国王驿站";
+                if (new List<string> { "古老盆地", "王国边缘" }.Contains(areaName)) areaName = "深邃巢穴";
 
                 if (!areas.Contains(areaName) && !def.deadEnd && !def.isolated)
                 {
@@ -233,7 +233,7 @@ namespace RandomizerMod.Randomization
             var worldTransitions = new Dictionary<string, List<string>>();
             foreach (string area in areas)
             {
-                if (area == "Kings_Pass") continue;
+                if (area == "国王山道") continue;
                 worldTransitions.Add(area, new List<string>());
             }
             foreach (string t in tm.unplacedTransitions)
@@ -428,7 +428,7 @@ namespace RandomizerMod.Randomization
 
                 string placeItem = im.SpecialGuessItem();
                 tm.pm.Add(placeItem);
-                im.PlaceItem(placeItem, "Fury_of_the_Fallen");
+                im.PlaceItem(placeItem, "亡者之怒");
                 tm.firstItem = placeItem;
 
                 string transition1 = "Tutorial_01[right1]";
@@ -542,7 +542,7 @@ namespace RandomizerMod.Randomization
                 // Last ditch effort to save the seed. The list is ordered by which items are heuristically likely to unlock transitions at this point.
                 if (im.FindNextLocation(tm.pm) is string lastLocation)
                 {
-                    foreach (string item in new List<string> { "Mantis_Claw", "Monarch_Wings", "Desolate_Dive", "Isma's_Tear", "Crystal_Heart", "Mothwing_Cloak", "Shade_Cloak" })
+                    foreach (string item in new List<string> { "螳螂爪", "帝王之翼", "荒芜俯冲", "伊思玛的眼泪", "水晶之心", "蛾翼披风", "暗影披风" })
                     {
                         if (!tm.pm.Has(item))
                         {
@@ -562,7 +562,7 @@ namespace RandomizerMod.Randomization
         private static void PlaceFury()
         {
             im.UpdateReachableLocations("Tutorial_01[right1]");
-            im.PlaceItem(tm.firstItem, "Fury_of_the_Fallen");
+            im.PlaceItem(tm.firstItem, "亡者之怒");
         }
 
         private static void FirstPass()

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RandomizerMod.Extensions;
 using SeanprCore;
 using UnityEngine;
@@ -34,59 +34,59 @@ namespace RandomizerMod
 
             // Create new buttons
             MenuButton startRandoBtn = classic.Clone("StartRando", MenuButton.MenuButtonType.Proceed,
-                new Vector2(0, 0), "Start Game", "Randomizer", RandomizerMod.GetSprite("UI.logo"));
+                new Vector2(0, 0), "开始游戏", "随机", RandomizerMod.GetSprite("UI.logo"));
             /*
             MenuButton startNormalBtn = classic.Clone("StartNormal", MenuButton.MenuButtonType.Proceed,
-                new Vector2(0, -200), "Start Game", "Non-Randomizer");
+                new Vector2(0, -200), "开始游戏", "非随机");
             MenuButton startSteelRandoBtn = steel.Clone("StartSteelRando", MenuButton.MenuButtonType.Proceed,
-                new Vector2(10000, 10000), "Steel Soul", "Randomizer", RandomizerMod.GetSprite("UI.logo2"));
+                new Vector2(10000, 10000), "钢魂", "随机", RandomizerMod.GetSprite("UI.logo2"));
             MenuButton startSteelNormalBtn = steel.Clone("StartSteelNormal", MenuButton.MenuButtonType.Proceed,
-                new Vector2(10000, 10000), "Steel Soul", "Non-Randomizer");
+                new Vector2(10000, 10000), "钢魂", "非随机");
                 
             startNormalBtn.transform.localScale = 
                 startSteelNormalBtn.transform.localScale =
                     startSteelRandoBtn.transform.localScale = */
                     startRandoBtn.transform.localScale = new Vector2(0.75f, 0.75f);
 
-            MenuButton backBtn = back.Clone("Back", MenuButton.MenuButtonType.Proceed, new Vector2(0, -100), "Back");
+            MenuButton backBtn = back.Clone("返回", MenuButton.MenuButtonType.Proceed, new Vector2(0, -100), "返回");
 
 
-            //RandoMenuItem<string> gameTypeBtn = new RandoMenuItem<string>(back, new Vector2(0, 600), "Game Type", "Normal", "Steel Soul");
+            //RandoMenuItem<string> gameTypeBtn = new RandoMenuItem<string>(back, new Vector2(0, 600), "游戏类型", "常规", "钢魂");
 
-            RandoMenuItem<string> presetPoolsBtn = new RandoMenuItem<string>(back, new Vector2(900, 1040), "Preset", "Progressive", "Completionist", "Junk Pit", "Custom");
-            RandoMenuItem<bool> RandoDreamersBtn = new RandoMenuItem<bool>(back, new Vector2(900, 960), "Dreamers", true);
-            RandoMenuItem<bool> RandoSkillsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 880), "Skills", true);
-            RandoMenuItem<bool> RandoCharmsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 800), "Charms", true);
-            RandoMenuItem<bool> RandoKeysBtn = new RandoMenuItem<bool>(back, new Vector2(900, 720), "Keys", true);
-            RandoMenuItem<bool> RandoGeoChestsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 640), "Geo Chests", false, true);
-            RandoMenuItem<bool> RandoMaskBtn = new RandoMenuItem<bool>(back, new Vector2(900, 560), "Mask Shards", false, true);
-            RandoMenuItem<bool> RandoVesselBtn = new RandoMenuItem<bool>(back, new Vector2(900, 480), "Vessel Fragments", false, true);
-            RandoMenuItem<bool> RandoOreBtn = new RandoMenuItem<bool>(back, new Vector2(900, 400), "Pale Ore", false, true);
-            RandoMenuItem<bool> RandoNotchBtn = new RandoMenuItem<bool>(back, new Vector2(900, 320), "Charm Notches", false, true);
-            RandoMenuItem<bool> RandoEggBtn = new RandoMenuItem<bool>(back, new Vector2(900, 240), "Rancid Eggs", false, true);
-            RandoMenuItem<bool> RandoRelicsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 160), "Relics", false, true);
-            RandoMenuItem<bool> RandoSpoilerBtn = new RandoMenuItem<bool>(back, new Vector2(900, 80), "Create Spoiler Log", true, false);
+            RandoMenuItem<string> presetPoolsBtn = new RandoMenuItem<string>(back, new Vector2(900, 1040), "预设", "循序渐进", "完美主义者", "垃圾堆", "自定义");
+            RandoMenuItem<bool> RandoDreamersBtn = new RandoMenuItem<bool>(back, new Vector2(900, 960), "守梦者", true);
+            RandoMenuItem<bool> RandoSkillsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 880), "技能", true);
+            RandoMenuItem<bool> RandoCharmsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 800), "护符", true);
+            RandoMenuItem<bool> RandoKeysBtn = new RandoMenuItem<bool>(back, new Vector2(900, 720), "钥匙", true);
+            RandoMenuItem<bool> RandoGeoChestsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 640), "钱箱", false, true);
+            RandoMenuItem<bool> RandoMaskBtn = new RandoMenuItem<bool>(back, new Vector2(900, 560), "面具碎片", false, true);
+            RandoMenuItem<bool> RandoVesselBtn = new RandoMenuItem<bool>(back, new Vector2(900, 480), "灵魂碎片", false, true);
+            RandoMenuItem<bool> RandoOreBtn = new RandoMenuItem<bool>(back, new Vector2(900, 400), "苍白矿石", false, true);
+            RandoMenuItem<bool> RandoNotchBtn = new RandoMenuItem<bool>(back, new Vector2(900, 320), "护符槽", false, true);
+            RandoMenuItem<bool> RandoEggBtn = new RandoMenuItem<bool>(back, new Vector2(900, 240), "腐臭蛋", false, true);
+            RandoMenuItem<bool> RandoRelicsBtn = new RandoMenuItem<bool>(back, new Vector2(900, 160), "古董", false, true);
+            RandoMenuItem<bool> RandoSpoilerBtn = new RandoMenuItem<bool>(back, new Vector2(900, 80), "生成剧透日志", true, false);
 
-            RandoMenuItem<string> presetSkipsBtn = new RandoMenuItem<string>(back, new Vector2(-900, 1040), "Preset", "Easy", "Hard", "Custom");
-            RandoMenuItem<bool> mildSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 960), "Mild Skips", false, true);
-            RandoMenuItem<bool> shadeSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 880), "Shade Skips", false, true);
-            RandoMenuItem<bool> fireballSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 800), "Fireball Skips", false, true);
-            RandoMenuItem<bool> acidSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 720), "Acid Skips", false, true);
-            RandoMenuItem<bool> spikeTunnelsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 640), "Spike Tunnels", false, true);
-            RandoMenuItem<bool> darkRoomsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 560), "Dark Rooms", false, true);
-            RandoMenuItem<bool> spicySkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 480), "Spicy Skips", false, true);
+            RandoMenuItem<string> presetSkipsBtn = new RandoMenuItem<string>(back, new Vector2(-900, 1040), "预设", "简单", "困难", "自定义");
+            RandoMenuItem<bool> mildSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 960), "温和", false, true);
+            RandoMenuItem<bool> shadeSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 880), "劈魂", false, true);
+            RandoMenuItem<bool> fireballSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 800), "白波", false, true);
+            RandoMenuItem<bool> acidSkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 720), "酸冲", false, true);
+            RandoMenuItem<bool> spikeTunnelsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 640), "钻刺", false, true);
+            RandoMenuItem<bool> darkRoomsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 560), "摸黑", false, true);
+            RandoMenuItem<bool> spicySkipsBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 480), "刺激", false, true);
 
-            RandoMenuItem<bool> charmNotchBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 280), "Salubra Notches", true, false);
-            RandoMenuItem<bool> lemmBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 200), "Lemm Sell All", true, false);
-            RandoMenuItem<bool> EarlyGeoBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 120), "Early Geo", true, false);
-            RandoMenuItem<bool> jijiBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 40), "Jiji Hints", true, false);
-            RandoMenuItem<bool> quirrelBtn = new RandoMenuItem<bool>(back, new Vector2(-900, -40), "Quirrel Hints", true, false);
+            RandoMenuItem<bool> charmNotchBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 280), "自动加护符槽", true, false);
+            RandoMenuItem<bool> lemmBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 200), "一键甩卖", true, false);
+            RandoMenuItem<bool> EarlyGeoBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 120), "开局钱", true, false);
+            RandoMenuItem<bool> jijiBtn = new RandoMenuItem<bool>(back, new Vector2(-900, 40), "吉吉提示", true, false);
+            RandoMenuItem<bool> quirrelBtn = new RandoMenuItem<bool>(back, new Vector2(-900, -40), "奎若提示", true, false);
             
 
-            RandoMenuItem<string> modeBtn = new RandoMenuItem<string>(back, new Vector2(0, 1040), "Mode", "Item Randomizer", "Area Randomizer", "Connected-Area Room Randomizer", "Room Randomizer");
+            RandoMenuItem<string> modeBtn = new RandoMenuItem<string>(back, new Vector2(0, 1040), "模式", "物品随机", "区域随机", "连接区域房间随机", "房间随机");
 
             // Create seed entry field
-            GameObject seedGameObject = back.Clone("Seed", MenuButton.MenuButtonType.Activate, new Vector2(0, 1130),
+            GameObject seedGameObject = back.Clone("种子", MenuButton.MenuButtonType.Activate, new Vector2(0, 1130),
                 "Click to type a custom seed").gameObject;
             Object.DestroyImmediate(seedGameObject.GetComponent<MenuButton>());
             Object.DestroyImmediate(seedGameObject.GetComponent<EventTrigger>());
@@ -122,11 +122,11 @@ namespace RandomizerMod
             };
 
             // Create some labels
-            CreateLabel(back, new Vector2(-900, 1130), "Required Skips");
-            CreateLabel(back, new Vector2(-900, 380), "Quality of Life");
-            CreateLabel(back, new Vector2(900, 1130), "Randomization");
-            CreateLabel(back, new Vector2(0, 200), "Area/Room Randomizer expect use of Benchwarp");
-            CreateLabel(back, new Vector2(0, 1300), "Seed:");
+            CreateLabel(back, new Vector2(-900, 1130), "需求的操作");
+            CreateLabel(back, new Vector2(-900, 380), "便捷功能");
+            CreateLabel(back, new Vector2(900, 1130), "随机程度");
+            CreateLabel(back, new Vector2(0, 200), "汉化：德特茅斯汉化组 Q群：646558222\n\n\n原作者：Seanpr 升级3.0：Homothety\n\n\n区域/房间随机要求使用回椅子mod");
+            CreateLabel(back, new Vector2(0, 1300), "种子：");
 
             // We don't need these old buttons anymore
             Object.Destroy(classic.gameObject);
@@ -181,7 +181,7 @@ namespace RandomizerMod
             {
                 switch (item.CurrentSelection)
                 {
-                    case "Easy":
+                    case "简单":
                         SetShadeSkips(false);
                         mildSkipsBtn.SetSelection(false);
                         acidSkipsBtn.SetSelection(false);
@@ -190,7 +190,7 @@ namespace RandomizerMod
                         fireballSkipsBtn.SetSelection(false);
                         darkRoomsBtn.SetSelection(false);
                         break;
-                    case "Hard":
+                    case "困难":
                         SetShadeSkips(true);
                         mildSkipsBtn.SetSelection(true);
                         acidSkipsBtn.SetSelection(true);
@@ -199,9 +199,9 @@ namespace RandomizerMod
                         fireballSkipsBtn.SetSelection(true);
                         darkRoomsBtn.SetSelection(true);
                         break;
-                    case "Custom":
-                        item.SetSelection("Easy");
-                        goto case "Easy";
+                    case "自定义":
+                        item.SetSelection("简单");
+                        goto case "简单";
 
                     default:
                         LogWarn("Unknown value in preset button: " + item.CurrentSelection);
@@ -212,7 +212,7 @@ namespace RandomizerMod
             {
                 switch (item.CurrentSelection)
                 {
-                    case "Progressive":
+                    case "循序渐进":
                         RandoDreamersBtn.SetSelection(true);
                         RandoSkillsBtn.SetSelection(true);
                         RandoCharmsBtn.SetSelection(true);
@@ -225,7 +225,7 @@ namespace RandomizerMod
                         RandoEggBtn.SetSelection(false);
                         RandoRelicsBtn.SetSelection(false);
                         break;
-                    case "Completionist":
+                    case "完美主义者":
                         RandoDreamersBtn.SetSelection(true);
                         RandoSkillsBtn.SetSelection(true);
                         RandoCharmsBtn.SetSelection(true);
@@ -238,7 +238,7 @@ namespace RandomizerMod
                         RandoEggBtn.SetSelection(false);
                         RandoRelicsBtn.SetSelection(false);
                         break;
-                    case "Junk Pit":
+                    case "垃圾堆":
                         RandoDreamersBtn.SetSelection(true);
                         RandoSkillsBtn.SetSelection(true);
                         RandoCharmsBtn.SetSelection(true);
@@ -251,9 +251,9 @@ namespace RandomizerMod
                         RandoEggBtn.SetSelection(true);
                         RandoRelicsBtn.SetSelection(true);
                         break;
-                    case "Custom":
-                        item.SetSelection("Progressive");
-                        goto case "Progressive";
+                    case "自定义":
+                        item.SetSelection("循序渐进");
+                        goto case "循序渐进";
                 }
             }
 
@@ -261,7 +261,7 @@ namespace RandomizerMod
             {
                 if (enabled)
                 {
-                    //gameTypeBtn.SetSelection("Normal");
+                    //gameTypeBtn.SetSelection("常规");
                     //SwitchGameType(false);
                 }
 
@@ -270,13 +270,13 @@ namespace RandomizerMod
 
             void SkipsSettingChanged(RandoMenuItem<bool> item)
             {
-                presetSkipsBtn.SetSelection("Custom");
+                presetSkipsBtn.SetSelection("自定义");
 
             }
 
             void PoolSettingChanged(RandoMenuItem<bool> item)
             {
-                presetPoolsBtn.SetSelection("Custom");
+                presetPoolsBtn.SetSelection("自定义");
             }
 
             presetSkipsBtn.Changed += UpdateSkipsButtons;
@@ -340,7 +340,7 @@ namespace RandomizerMod
             }
 
             gameTypeBtn.Button.AddEvent(EventTriggerType.Submit,
-                garbage => SwitchGameType(gameTypeBtn.CurrentSelection != "Normal"));
+                garbage => SwitchGameType(gameTypeBtn.CurrentSelection != "常规"));
                 */
 
             // Setup start game button events
@@ -371,9 +371,9 @@ namespace RandomizerMod
                     RandomizerMod.Instance.Settings.CreateSpoilerLog = RandoSpoilerBtn.CurrentSelection;
 
                     RandomizerMod.Instance.Settings.Randomizer = rando;
-                    RandomizerMod.Instance.Settings.RandomizeAreas = modeBtn.CurrentSelection == "Area Randomizer";
-                    RandomizerMod.Instance.Settings.RandomizeRooms = modeBtn.CurrentSelection.EndsWith("Room Randomizer");
-                    RandomizerMod.Instance.Settings.ConnectAreas = modeBtn.CurrentSelection.StartsWith("Connected-Area");
+                    RandomizerMod.Instance.Settings.RandomizeAreas = modeBtn.CurrentSelection == "区域随机";
+                    RandomizerMod.Instance.Settings.RandomizeRooms = modeBtn.CurrentSelection.EndsWith("房间随机");
+                    RandomizerMod.Instance.Settings.ConnectAreas = modeBtn.CurrentSelection.StartsWith("连接区域");
 
                     RandomizerMod.Instance.Settings.MildSkips = mildSkipsBtn.CurrentSelection;
                     RandomizerMod.Instance.Settings.ShadeSkips = shadeSkipsBtn.CurrentSelection;

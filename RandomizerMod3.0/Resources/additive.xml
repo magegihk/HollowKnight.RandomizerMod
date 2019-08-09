@@ -1,28 +1,28 @@
-﻿<randomizer>
+<randomizer>
   <additiveItemSet name="DASH">
-    <itemName>Mothwing_Cloak</itemName>
-    <itemName>Shade_Cloak</itemName>
+    <itemName>蛾翼披风</itemName>
+    <itemName>暗影披风</itemName>
   </additiveItemSet>
   <additiveItemSet name="FIREBALL">
-    <itemName>Vengeful_Spirit</itemName>
-    <itemName>Shade_Soul</itemName>
+    <itemName>复仇之魂</itemName>
+    <itemName>暗影之魂</itemName>
   </additiveItemSet>
   <additiveItemSet name="QUAKE">
-    <itemName>Desolate_Dive</itemName>
-    <itemName>Descending_Dark</itemName>
+    <itemName>荒芜俯冲</itemName>
+    <itemName>黑暗降临</itemName>
   </additiveItemSet>
   <additiveItemSet name="SCREAM">
-    <itemName>Howling_Wraiths</itemName>
-    <itemName>Abyss_Shriek</itemName>
+    <itemName>嚎叫幽灵</itemName>
+    <itemName>深渊尖啸</itemName>
   </additiveItemSet>
   <additiveItemSet name="DREAMNAIL">
-    <itemName>Dream_Nail</itemName>
-    <itemName>Dream_Gate</itemName>
-    <itemName>Awoken_Dream_Nail</itemName>
+    <itemName>梦之钉</itemName>
+    <itemName>梦之门</itemName>
+    <itemName>苏醒的梦之钉</itemName>
   </additiveItemSet>
   <additiveItemSet name="VOIDHEART">
-    <itemName>Queen_Fragment</itemName>
-    <itemName>King_Fragment</itemName>
-    <itemName>Void_Heart</itemName>
+    <itemName>白后碎片</itemName>
+    <itemName>白王碎片</itemName>
+    <itemName>虚空之心</itemName>
   </additiveItemSet>
 </randomizer>

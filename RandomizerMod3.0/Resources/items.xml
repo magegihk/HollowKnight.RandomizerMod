@@ -1,5 +1,5 @@
 <randomizer>
-  <item name="Lurien">
+  <item name="卢瑞恩">
     <boolName>RandomizerMod.Lurien</boolName>
     <sceneName>Ruins2_Watcher_Room</sceneName>
     <newShiny>true</newShiny>
@@ -24,7 +24,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Monomon">
+  <item name="莫诺蒙">
     <boolName>RandomizerMod.Monomon</boolName>
     <sceneName>Fungus3_archive_02</sceneName>
     <newShiny>true</newShiny>
@@ -49,7 +49,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Herrah">
+  <item name="赫拉">
     <boolName>RandomizerMod.Herrah</boolName>
     <sceneName>Deepnest_Spider_Town</sceneName>
     <newShiny>true</newShiny>
@@ -74,15 +74,15 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="World_Sense">
+  <item name="完成度">
     <boolName>unlockedCompletionRate</boolName>
     <sceneName>Room_Final_Boss_Atrium</sceneName>
     <newShiny>true</newShiny>
     <x>202</x>
     <y>7</y>
-    <itemLogic>Lurien + Monomon + Herrah</itemLogic>
-    <areaLogic>Room_temple[left1] + Lurien + Monomon + Herrah</areaLogic>
-    <roomLogic>Room_temple[left1] + Lurien + Monomon + Herrah</roomLogic>
+    <itemLogic>卢瑞恩 + 莫诺蒙 + 赫拉</itemLogic>
+    <areaLogic>Room_temple[left1] + 卢瑞恩 + 莫诺蒙 + 赫拉</areaLogic>
+    <roomLogic>Room_temple[left1] + 卢瑞恩 + 莫诺蒙 + 赫拉</roomLogic>
     <type>Big</type>
     <pool>Dreamer</pool>
     <bigSpriteKey>Prompts.WorldSense</bigSpriteKey>
@@ -95,7 +95,7 @@
     <shopSpriteKey>ShopIcons.WorldSense</shopSpriteKey>
     <areaName>Forgotten_Crossroads</areaName>
   </item>
-  <item name="Mothwing_Cloak">
+  <item name="蛾翼披风">
     <boolName>hasDash</boolName>
     <sceneName>Fungus1_04</sceneName>
     <objectName>Shiny Item</objectName>
@@ -120,7 +120,7 @@
     <areaCandidate>true</areaCandidate>
     <isGoodItem>true</isGoodItem>
   </item>
-  <item name="Mantis_Claw">
+  <item name="螳螂爪">
     <boolName>hasWalljump</boolName>
     <sceneName>Fungus2_14</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -145,7 +145,7 @@
     <areaCandidate>true</areaCandidate>
     <isGoodItem>true</isGoodItem>
   </item>
-  <item name="Crystal_Heart">
+  <item name="水晶之心">
     <boolName>hasSuperDash</boolName>
     <sceneName>Mines_31</sceneName>
     <objectName>Super Dash Get</objectName>
@@ -168,7 +168,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Monarch_Wings">
+  <item name="帝王之翼">
     <boolName>hasDoubleJump</boolName>
     <sceneName>Abyss_21</sceneName>
     <objectName>Shiny Item DJ</objectName>
@@ -192,7 +192,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Shade_Cloak">
+  <item name="暗影披风">
     <boolName>hasShadowDash</boolName>
     <sceneName>Abyss_10</sceneName>
     <objectName>Dish Plat</objectName>
@@ -216,7 +216,7 @@
     <areaCandidate>true</areaCandidate>
     <isGoodItem>true</isGoodItem>
   </item>
-  <item name="Isma's_Tear">
+  <item name="伊思玛的眼泪">
     <boolName>hasAcidArmour</boolName>
     <sceneName>Waterways_13</sceneName>
     <objectName>Shiny Item Acid</objectName>
@@ -239,7 +239,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Dream_Nail">
+  <item name="梦之钉">
     <boolName>hasDreamNail</boolName>
     <sceneName>Dream_Nailcollection</sceneName>
     <objectName>Moth NPC</objectName>
@@ -263,7 +263,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Dream_Gate">
+  <item name="梦之门">
     <boolName>hasDreamGate</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -288,7 +288,7 @@
     <costType>1</costType>
     <isGoodItem>true</isGoodItem>
   </item>
-  <item name="Awoken_Dream_Nail">
+  <item name="苏醒的梦之钉">
     <boolName>dreamNailUpgraded</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -313,7 +313,7 @@
     <costType>1</costType>
     <isGoodItem>true</isGoodItem>
   </item>
-  <item name="Vengeful_Spirit">
+  <item name="复仇之魂">
     <boolName>hasVengefulSpirit</boolName>
     <sceneName>Crossroads_ShamanTemple</sceneName>
     <objectName>Shaman Meeting</objectName>
@@ -336,7 +336,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Shade_Soul">
+  <item name="暗影之魂">
     <boolName>hasShadeSoul</boolName>
     <sceneName>Ruins1_31b</sceneName>
     <objectName>Ruins Shaman</objectName>
@@ -357,7 +357,7 @@
     <areaName>City_of_Tears</areaName>
     <progression>true</progression>
   </item>
-  <item name="Desolate_Dive">
+  <item name="荒芜俯冲">
     <boolName>hasDesolateDive</boolName>
     <sceneName>Ruins1_24</sceneName>
     <objectName>Quake Item</objectName>
@@ -380,7 +380,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Descending_Dark">
+  <item name="黑暗降临">
     <boolName>hasDescendingDark</boolName>
     <sceneName>Mines_35</sceneName>
     <objectName>Crystal Shaman</objectName>
@@ -401,7 +401,7 @@
     <areaName>Crystal_Peak</areaName>
     <progression>true</progression>
   </item>
-  <item name="Howling_Wraiths">
+  <item name="嚎叫幽灵">
     <boolName>hasHowlingWraiths</boolName>
     <sceneName>Room_Fungus_Shaman</sceneName>
     <objectName>Scream Item</objectName>
@@ -424,7 +424,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Abyss_Shriek">
+  <item name="深渊尖啸">
     <boolName>hasAbyssShriek</boolName>
     <sceneName>Abyss_12</sceneName>
     <objectName>Scream 2 Get</objectName>
@@ -447,7 +447,7 @@
     <costType>4</costType>
     <progression>true</progression>
   </item>
-  <item name="Cyclone_Slash">
+  <item name="旋风劈砍">
     <boolName>hasCyclone</boolName>
     <sceneName>Room_nailmaster</sceneName>
     <objectName>NM Mato NPC</objectName>
@@ -469,7 +469,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Dash_Slash">
+  <item name="冲刺劈砍">
     <boolName>hasUpwardSlash</boolName>
     <sceneName>Room_nailmaster_03</sceneName>
     <objectName>NM Oro NPC</objectName>
@@ -492,7 +492,7 @@
     <itemCandidate>true</itemCandidate>
     <cost>800</cost>
   </item>
-  <item name="Great_Slash">
+  <item name="强力劈砍">
     <boolName>hasDashSlash</boolName>
     <sceneName>Room_nailmaster_02</sceneName>
     <objectName>NM Sheo NPC</objectName>
@@ -514,7 +514,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Gathering_Swarm">
+  <item name="蜂群集结">
     <boolName>gotCharm_1</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -530,7 +530,7 @@
     <areaName>Dirtmouth</areaName>
     <notchCost>charmCost_1</notchCost>
   </item>
-  <item name="Wayward_Compass">
+  <item name="任性的指南针">
     <boolName>gotCharm_2</boolName>
     <sceneName>Room_mapper</sceneName>
     <objectName>Shop Menu</objectName>
@@ -546,7 +546,7 @@
     <areaName>Dirtmouth</areaName>
     <notchCost>charmCost_2</notchCost>
   </item>
-  <item name="Grubsong">
+  <item name="幼虫之歌">
     <boolName>gotCharm_3</boolName>
     <sceneName>Crossroads_38</sceneName>
     <newShiny>true</newShiny>
@@ -565,7 +565,7 @@
     <cost>10</cost>
     <costType>3</costType>
   </item>
-  <item name="Stalwart_Shell">
+  <item name="坚硬外壳">
     <boolName>gotCharm_4</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -581,7 +581,7 @@
     <areaName>Dirtmouth</areaName>
     <notchCost>charmCost_4</notchCost>
   </item>
-  <item name="Baldur_Shell">
+  <item name="巴德尔之壳">
     <boolName>gotCharm_5</boolName>
     <sceneName>Fungus1_28</sceneName>
     <objectName>Shiny Item</objectName>
@@ -598,7 +598,7 @@
     <areaName>Howling_Cliffs</areaName>
     <notchCost>charmCost_5</notchCost>
   </item>
-  <item name="Fury_of_the_Fallen">
+  <item name="亡者之怒">
     <boolName>gotCharm_6</boolName>
     <sceneName>Tutorial_01</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -618,7 +618,7 @@
     <chestName>Chest</chestName>
     <chestFsmName>Chest Control</chestFsmName>
   </item>
-  <item name="Quick_Focus">
+  <item name="快速聚集">
     <boolName>gotCharm_7</boolName>
     <sceneName>Room_Charm_Shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -634,7 +634,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <notchCost>charmCost_7</notchCost>
   </item>
-  <item name="Lifeblood_Heart">
+  <item name="生命血之心">
     <boolName>gotCharm_8</boolName>
     <sceneName>Room_Charm_Shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -650,7 +650,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <notchCost>charmCost_8</notchCost>
   </item>
-  <item name="Lifeblood_Core">
+  <item name="生命血核心">
     <boolName>gotCharm_9</boolName>
     <sceneName>Abyss_08</sceneName>
     <objectName>Shiny Item</objectName>
@@ -667,7 +667,7 @@
     <areaName>Abyss</areaName>
     <notchCost>charmCost_9</notchCost>
   </item>
-  <item name="Defender's_Crest">
+  <item name="防御者纹章">
     <boolName>gotCharm_10</boolName>
     <sceneName>Waterways_05</sceneName>
     <objectName>Shiny Item</objectName>
@@ -685,7 +685,7 @@
     <areaName>Royal_Waterways</areaName>
     <notchCost>charmCost_10</notchCost>
   </item>
-  <item name="Flukenest">
+  <item name="吸虫之巢">
     <boolName>gotCharm_11</boolName>
     <sceneName>Waterways_12</sceneName>
     <objectName>Shiny Item</objectName>
@@ -702,7 +702,7 @@
     <areaName>Royal_Waterways</areaName>
     <notchCost>charmCost_11</notchCost>
   </item>
-  <item name="Thorns_of_Agony">
+  <item name="苦痛荆棘">
     <boolName>gotCharm_12</boolName>
     <sceneName>Fungus1_14</sceneName>
     <objectName>Shiny Item</objectName>
@@ -719,7 +719,7 @@
     <areaName>Greenpath</areaName>
     <notchCost>charmCost_12</notchCost>
   </item>
-  <item name="Mark_of_Pride">
+  <item name="骄傲印记">
     <boolName>gotCharm_13</boolName>
     <sceneName>Fungus2_31</sceneName>
     <objectName>Shiny Item Charm</objectName>
@@ -740,7 +740,7 @@
     <chestName>Mantis Chest</chestName>
     <chestFsmName>Chest Control</chestFsmName>
   </item>
-  <item name="Steady_Body">
+  <item name="稳定之体">
     <boolName>gotCharm_14</boolName>
     <sceneName>Room_Charm_Shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -756,7 +756,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <notchCost>charmCost_14</notchCost>
   </item>
-  <item name="Heavy_Blow">
+  <item name="沉重之击">
     <boolName>gotCharm_15</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -772,7 +772,7 @@
     <areaName>Dirtmouth</areaName>
     <notchCost>charmCost_15</notchCost>
   </item>
-  <item name="Sharp_Shadow">
+  <item name="锋利之影">
     <boolName>gotCharm_16</boolName>
     <sceneName>Deepnest_44</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -790,7 +790,7 @@
     <notchCost>charmCost_16</notchCost>
     <progression>true</progression>
   </item>
-  <item name="Spore_Shroom">
+  <item name="蘑菇孢子">
     <boolName>gotCharm_17</boolName>
     <sceneName>Fungus2_20</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -808,7 +808,7 @@
     <areaName>Fungal_Wastes</areaName>
     <progression>true</progression>
   </item>
-  <item name="Longnail">
+  <item name="修长之钉">
     <boolName>gotCharm_18</boolName>
     <sceneName>Room_Charm_Shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -824,7 +824,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <notchCost>charmCost_18</notchCost>
   </item>
-  <item name="Shaman_Stone">
+  <item name="萨满之石">
     <boolName>gotCharm_19</boolName>
     <sceneName>Room_Charm_Shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -840,7 +840,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <notchCost>charmCost_19</notchCost>
   </item>
-  <item name="Soul_Catcher">
+  <item name="灵魂捕手">
     <boolName>gotCharm_20</boolName>
     <sceneName>Crossroads_ShamanTemple</sceneName>
     <objectName>Shiny Item</objectName>
@@ -857,7 +857,7 @@
     <areaName>Ancestral_Mound</areaName>
     <notchCost>charmCost_20</notchCost>
   </item>
-  <item name="Soul_Eater">
+  <item name="噬魂者">
     <boolName>gotCharm_21</boolName>
     <sceneName>RestingGrounds_10</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -874,7 +874,7 @@
     <areaName>Resting_Grounds</areaName>
     <notchCost>charmCost_21</notchCost>
   </item>
-  <item name="Glowing_Womb">
+  <item name="发光子宫">
     <boolName>gotCharm_22</boolName>
     <sceneName>Crossroads_22</sceneName>
     <objectName>Shiny Item</objectName>
@@ -892,7 +892,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <progression>true</progression>
   </item>
-  <item name="Fragile_Heart">
+  <item name="易碎心脏">
     <boolName>gotCharm_23</boolName>
     <sceneName>Fungus2_26</sceneName>
     <objectName>Shop Menu</objectName>
@@ -908,7 +908,7 @@
     <areaName>Fungal_Wastes</areaName>
     <notchCost>charmCost_23</notchCost>
   </item>
-  <item name="Fragile_Greed">
+  <item name="易碎贪婪">
     <boolName>gotCharm_24</boolName>
     <sceneName>Fungus2_26</sceneName>
     <objectName>Shop Menu</objectName>
@@ -924,7 +924,7 @@
     <areaName>Fungal_Wastes</areaName>
     <notchCost>charmCost_24</notchCost>
   </item>
-  <item name="Fragile_Strength">
+  <item name="易碎力量">
     <boolName>gotCharm_25</boolName>
     <sceneName>Fungus2_26</sceneName>
     <objectName>Shop Menu</objectName>
@@ -940,14 +940,14 @@
     <areaName>Fungal_Wastes</areaName>
     <notchCost>charmCost_25</notchCost>
   </item>
-  <item name="Nailmaster's_Glory">
+  <item name="骨钉大师的荣耀">
     <boolName>gotCharm_26</boolName>
     <sceneName>Room_Sly_Storeroom</sceneName>
     <objectName>Sly Basement NPC</objectName>
     <replace>true</replace>
-    <itemLogic>Cyclone_Slash + Dash_Slash + Great_Slash</itemLogic>
-    <areaLogic>DIRTMOUTH + Cyclone_Slash + Dash_Slash + Great_Slash</areaLogic>
-    <roomLogic>Room_ruinhouse[left1] + Room_shop[left1] + Cyclone_Slash + Dash_Slash + Great_Slash</roomLogic>
+    <itemLogic>旋风劈砍 + 冲刺劈砍 + 强力劈砍</itemLogic>
+    <areaLogic>DIRTMOUTH + 旋风劈砍 + 冲刺劈砍 + 强力劈砍</areaLogic>
+    <roomLogic>Room_ruinhouse[left1] + Room_shop[left1] + 旋风劈砍 + 冲刺劈砍 + 强力劈砍</roomLogic>
     <type>Charm</type>
     <pool>Charm</pool>
     <nameKey>CHARM_NAME_26</nameKey>
@@ -956,7 +956,7 @@
     <areaName>Dirtmouth</areaName>
     <notchCost>charmCost_26</notchCost>
   </item>
-  <item name="Joni's_Blessing">
+  <item name="乔尼的祝福">
     <boolName>gotCharm_27</boolName>
     <sceneName>Cliffs_05</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -973,7 +973,7 @@
     <areaName>Howling_Cliffs</areaName>
     <notchCost>charmCost_27</notchCost>
   </item>
-  <item name="Shape_of_Unn">
+  <item name="乌恩之形">
     <boolName>gotCharm_28</boolName>
     <sceneName>Fungus1_Slug</sceneName>
     <objectName>Shiny Item</objectName>
@@ -991,7 +991,7 @@
     <areaName>Greenpath</areaName>
     <notchCost>charmCost_28</notchCost>
   </item>
-  <item name="Hiveblood">
+  <item name="蜂巢之血">
     <boolName>gotCharm_29</boolName>
     <sceneName>Hive_05</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1008,7 +1008,7 @@
     <areaName>Hive</areaName>
     <notchCost>charmCost_29</notchCost>
   </item>
-  <item name="Dream_Wielder">
+  <item name="舞梦者">
     <boolName>gotCharm_30</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -1027,7 +1027,7 @@
     <cost>500</cost>
     <costType>1</costType>
   </item>
-  <item name="Dashmaster">
+  <item name="冲刺大师">
     <boolName>gotCharm_31</boolName>
     <sceneName>Fungus2_23</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1045,7 +1045,7 @@
     <notchCost>charmCost_31</notchCost>
     <progression>true</progression>
   </item>
-  <item name="Quick_Slash">
+  <item name="快速劈砍">
     <boolName>gotCharm_32</boolName>
     <sceneName>Deepnest_East_14b</sceneName>
     <objectName>Shiny Item</objectName>
@@ -1062,7 +1062,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <notchCost>charmCost_32</notchCost>
   </item>
-  <item name="Spell_Twister">
+  <item name="法术扭曲者">
     <boolName>gotCharm_33</boolName>
     <sceneName>Ruins1_30</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1079,7 +1079,7 @@
     <areaName>City_of_Tears</areaName>
     <notchCost>charmCost_33</notchCost>
   </item>
-  <item name="Deep_Focus">
+  <item name="深度聚集">
     <boolName>gotCharm_34</boolName>
     <sceneName>Mines_36</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1096,7 +1096,7 @@
     <areaName>Crystal_Peak</areaName>
     <notchCost>charmCost_34</notchCost>
   </item>
-  <item name="Grubberfly's_Elegy">
+  <item name="蜕变挽歌">
     <boolName>gotCharm_35</boolName>
     <sceneName>Crossroads_38</sceneName>
     <newShiny>true</newShiny>
@@ -1116,7 +1116,7 @@
     <cost>23</cost>
     <costType>3</costType>
   </item>
-  <item name="Queen_Fragment">
+  <item name="白后碎片">
     <boolName>RandomizerMod.QueenFragment</boolName>
     <sceneName>Room_Queen</sceneName>
     <objectName>Shiny Item RoyalCharm</objectName>
@@ -1140,7 +1140,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="King_Fragment">
+  <item name="白王碎片">
     <boolName>RandomizerMod.KingFragment</boolName>
     <sceneName>White_Palace_09</sceneName>
     <objectName>Shiny Item RoyalCharm</objectName>
@@ -1164,7 +1164,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Void_Heart">
+  <item name="虚空之心">
     <boolName>RandomizerMod.VoidHeart</boolName>
     <sceneName>Abyss_15</sceneName>
     <newShiny>true</newShiny>
@@ -1189,7 +1189,7 @@
     <costType>5</costType>
     <progression>true</progression>
   </item>
-  <item name="Sprintmaster">
+  <item name="飞毛腿">
     <boolName>gotCharm_37</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1206,7 +1206,7 @@
     <notchCost>charmCost_37</notchCost>
     <progression>true</progression>
   </item>
-  <item name="Dreamshield">
+  <item name="梦之盾">
     <boolName>gotCharm_38</boolName>
     <sceneName>RestingGrounds_17</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1223,7 +1223,7 @@
     <areaName>Resting_Grounds</areaName>
     <notchCost>charmCost_38</notchCost>
   </item>
-  <item name="Weaversong">
+  <item name="编织者之歌">
     <boolName>gotCharm_39</boolName>
     <sceneName>Deepnest_45_v02</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -1241,15 +1241,15 @@
     <notchCost>charmCost_39</notchCost>
     <progression>true</progression>
   </item>
-  <item name="Grimmchild">
+  <item name="格林之子">
     <boolName>gotCharm_40</boolName>
     <sceneName>Grimm_Main_Tent</sceneName>
     <newShiny>true</newShiny>
     <x>75</x>
     <y>7</y>
-    <itemLogic>(HOWLINGCLIFFS-I + DREAMNAIL) | Grimmchild</itemLogic>
-    <areaLogic>DIRTMOUTH + ((HOWLINGCLIFFS + DREAMNAIL) | Grimmchild)</areaLogic>
-    <roomLogic>((Cliffs_06[left1] + DREAMNAIL) | Grimmchild) + Grimm_Main_Tent[left1]</roomLogic>
+    <itemLogic>(HOWLINGCLIFFS-I + DREAMNAIL) | 格林之子</itemLogic>
+    <areaLogic>DIRTMOUTH + ((HOWLINGCLIFFS + DREAMNAIL) | 格林之子)</areaLogic>
+    <roomLogic>((Cliffs_06[left1] + DREAMNAIL) | 格林之子) + Grimm_Main_Tent[left1]</roomLogic>
     <type>Charm</type>
     <pool>Charm</pool>
     <nameKey>CHARM_NAME_40</nameKey>
@@ -1260,7 +1260,7 @@
     <progression>true</progression>
   </item>
   <!--Keys-->
-  <item name="City_Crest">
+  <item name="城市纹章">
     <boolName>hasCityKey</boolName>
     <sceneName>Crossroads_10</sceneName>
     <objectName>Shiny Item</objectName>
@@ -1280,7 +1280,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Lumafly_Lantern">
+  <item name="光蝇灯笼">
     <boolName>hasLantern</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1300,7 +1300,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Tram_Pass">
+  <item name="电车通行证">
     <boolName>hasTramPass</boolName>
     <sceneName>Deepnest_26b</sceneName>
     <objectName>Shiny Item</objectName>
@@ -1320,7 +1320,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Simple_Key-Sly">
+  <item name="简单钥匙-斯莱">
     <boolName>RandomizerMod.SlySimpleKey</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1340,7 +1340,7 @@
     <itemCandidate>true</itemCandidate>
     <areaCandidate>true</areaCandidate>
   </item>
-  <item name="Simple_Key-Basin">
+  <item name="简单要是-古老盆地">
     <boolName>RandomizerMod.BasinSimpleKey</boolName>
     <sceneName>Abyss_20</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1359,7 +1359,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Simple_Key-City">
+  <item name="简单钥匙-泪水之城">
     <boolName>RandomizerMod.CitySimpleKey</boolName>
     <sceneName>Ruins1_17</sceneName>
     <objectName>Shiny Item</objectName>
@@ -1378,7 +1378,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Simple_Key-Lurker">
+  <item name="简单钥匙-苍白潜伏者">
     <boolName>RandomizerMod.LurkerSimpleKey</boolName>
     <sceneName>GG_Lurker</sceneName>
     <objectName>Shiny Item Key</objectName>
@@ -1397,7 +1397,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Shopkeeper's_Key">
+  <item name="店主的钥匙">
     <boolName>RandomizerMod.hasSlykey</boolName>
     <sceneName>Mines_11</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1416,7 +1416,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Elegant_Key">
+  <item name="典雅的钥匙">
     <boolName>RandomizerMod.hasWhiteKey</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1435,7 +1435,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Love_Key">
+  <item name="爱之钥">
     <boolName>RandomizerMod.hasLoveKey</boolName>
     <sceneName>Fungus3_39</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1454,7 +1454,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="King's_Brand">
+  <item name="王之印记">
     <boolName>hasKingsBrand</boolName>
     <sceneName>Room_Wyrm</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -1477,7 +1477,7 @@
     <progression>true</progression>
     <itemCandidate>true</itemCandidate>
   </item>
-  <item name="Godtuner">
+  <item name="神明调谐器">
     <boolName>hasGodfinder</boolName>
     <sceneName>GG_Waterways</sceneName>
     <objectName>Shiny Item Godfinder</objectName>
@@ -1500,7 +1500,7 @@
     <cost>1</cost>
     <costType>2</costType>
   </item>
-  <item name="Collector's_Map">
+  <item name="收藏家的地图">
     <boolName>hasPinGrub</boolName>
     <sceneName>Ruins2_11</sceneName>
     <objectName>Shiny Item CollectorMap</objectName>
@@ -1521,7 +1521,7 @@
     <areaName>City_of_Tears</areaName>
   </item>
   <!--Mask Shards-->
-  <item name="Mask_Shard-Sly1">
+  <item name="面具碎片-斯莱1">
     <boolName>RandomizerMod.MaskShardSly1</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1538,7 +1538,7 @@
     <notchCost></notchCost>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Sly2">
+  <item name="面具碎片-斯莱2">
     <boolName>RandomizerMod.MaskShardSly2</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1555,7 +1555,7 @@
     <notchCost></notchCost>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Sly3">
+  <item name="面具碎片-斯莱3">
     <boolName>RandomizerMod.MaskShardSly3</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1572,7 +1572,7 @@
     <notchCost></notchCost>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Sly4">
+  <item name="面具碎片-斯莱4">
     <boolName>RandomizerMod.MaskShardSly4</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1589,7 +1589,7 @@
     <notchCost></notchCost>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Seer">
+  <item name="面具碎片-先知">
     <boolName>RandomizerMod.MaskShardSeer</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -1608,7 +1608,7 @@
     <cost>900</cost>
     <costType>1</costType>
   </item>
-  <item name="Mask_Shard-5_Grubs">
+  <item name="面具碎片-幼虫">
     <boolName>RandomizerMod.MaskShard5Grubs</boolName>
     <sceneName>Crossroads_38</sceneName>
     <newShiny>true</newShiny>
@@ -1627,7 +1627,7 @@
     <cost>5</cost>
     <costType>3</costType>
   </item>
-  <item name="Mask_Shard-Brooding_Mawlek">
+  <item name="面具碎片-躁郁的毛里克">
     <boolName>RandomizerMod.MaskShardBroodingMawlek</boolName>
     <sceneName>Crossroads_09</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1643,7 +1643,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Crossroads_Goam">
+  <item name="面具碎片-十字路戈姆">
     <boolName>RandomizerMod.MaskShardCrossroadsGoam</boolName>
     <sceneName>Crossroads_13</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1659,7 +1659,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Stone_Sanctuary">
+  <item name="面具碎片-石之庇护所">
     <boolName>RandomizerMod.MaskShardStoneSanctuary</boolName>
     <sceneName>Fungus1_36</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1675,7 +1675,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Queen's_Station">
+  <item name="面具碎片-王后驿站">
     <boolName>RandomizerMod.MaskShardQueensStation</boolName>
     <sceneName>Fungus2_01</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1691,7 +1691,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Deepnest">
+  <item name="面具碎片-深邃巢穴">
     <boolName>RandomizerMod.MaskShardDeepnest</boolName>
     <sceneName>Fungus2_25</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1707,7 +1707,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Waterways">
+  <item name="面具碎片-皇家水道">
     <boolName>RandomizerMod.MaskShardWaterways</boolName>
     <sceneName>Waterways_04b</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1723,7 +1723,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Enraged_Guardian">
+  <item name="面具碎片-暴怒守卫">
     <boolName>RandomizerMod.MaskShardEnragedGuardian</boolName>
     <sceneName>Mines_32</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1739,7 +1739,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Hive">
+  <item name="面具碎片-蜂巢">
     <boolName>RandomizerMod.MaskShardHive</boolName>
     <sceneName>Hive_04</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1755,7 +1755,7 @@
     <areaName>Hive</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Grey_Mourner">
+  <item name="面具碎片-灰色哀悼者">
     <boolName>RandomizerMod.MaskShardGreyMourner</boolName>
     <sceneName>Room_Mansion</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1771,7 +1771,7 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>22</trinketNum>
   </item>
-  <item name="Mask_Shard-Bretta">
+  <item name="面具碎片-布蕾塔">
     <boolName>RandomizerMod.MaskShardBretta</boolName>
     <sceneName>Room_Bretta</sceneName>
     <objectName>Heart Piece</objectName>
@@ -1788,7 +1788,7 @@
     <trinketNum>22</trinketNum>
   </item>
   <!--Vessel Fragments-->
-  <item name="Vessel_Fragment-Sly1">
+  <item name="容器碎片-斯莱1">
     <boolName>RandomizerMod.VesselFragmentSly1</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1805,7 +1805,7 @@
     <notchCost></notchCost>
     <trinketNum>23</trinketNum>
   </item>
-  <item name="Vessel_Fragment-Sly2">
+  <item name="容器碎片-斯莱2">
     <boolName>RandomizerMod.VesselFragmentSly2</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -1822,7 +1822,7 @@
     <notchCost></notchCost>
     <trinketNum>23</trinketNum>
   </item>
-  <item name="Vessel_Fragment-Seer">
+  <item name="容器碎片-先知">
     <boolName>RandomizerMod.VesselFragmentSeer</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -1841,7 +1841,7 @@
     <cost>700</cost>
     <costType>1</costType>
   </item>
-  <item name="Vessel_Fragment-Greenpath">
+  <item name="容器碎片-苍绿之径">
     <boolName>RandomizerMod.VesselFragmentGreenpath</boolName>
     <sceneName>Fungus1_13</sceneName>
     <objectName>Vessel Fragment</objectName>
@@ -1857,7 +1857,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>23</trinketNum>
   </item>
-  <item name="Vessel_Fragment-City">
+  <item name="容器碎片-泪水之城">
     <boolName>RandomizerMod.VesselFragmentCity</boolName>
     <sceneName>Ruins2_09</sceneName>
     <objectName>Vessel Fragment</objectName>
@@ -1873,7 +1873,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>23</trinketNum>
   </item>
-  <item name="Vessel_Fragment-Crossroads">
+  <item name="容器碎片-遗忘十字路">
     <boolName>RandomizerMod.VesselFragmentCrossroads</boolName>
     <sceneName>Crossroads_37</sceneName>
     <objectName>Vessel Fragment</objectName>
@@ -1889,7 +1889,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>23</trinketNum>
   </item>
-  <item name="Vessel_Fragment-Basin">
+  <item name="容器碎片-古老盆地">
     <boolName>RandomizerMod.VesselFragmentBasin</boolName>
     <sceneName>Abyss_04</sceneName>
     <newShiny>true</newShiny>
@@ -1907,7 +1907,7 @@
     <trinketNum>23</trinketNum>
     <cost>3000</cost>
   </item>
-  <item name="Vessel_Fragment-Deepnest">
+  <item name="容器碎片-深邃巢穴">
     <boolName>RandomizerMod.VesselFragmentDeepnest</boolName>
     <sceneName>Deepnest_38</sceneName>
     <objectName>Vessel Fragment</objectName>
@@ -1923,7 +1923,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>23</trinketNum>
   </item>
-  <item name="Vessel_Fragment-Stag_Nest">
+  <item name="容器碎片-鹿角虫巢穴">
     <boolName>RandomizerMod.VesselFragmentStagNest</boolName>
     <sceneName>Cliffs_03</sceneName>
     <objectName>Vessel Fragment Stagnest (1)</objectName>
@@ -1940,7 +1940,7 @@
     <trinketNum>23</trinketNum>
   </item>
   <!--Charm Notches-->
-  <item name="Charm_Notch-Shrumal_Ogres">
+  <item name="凹槽-蘑菇巨人">
     <boolName>RandomizerMod.CharmNotchShrumalOgres</boolName>
     <sceneName>Fungus2_05</sceneName>
     <objectName>Shiny Item</objectName>
@@ -1957,7 +1957,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>13</trinketNum>
   </item>
-  <item name="Charm_Notch-Fog_Canyon">
+  <item name="凹槽-雾之峡谷">
     <boolName>RandomizerMod.CharmNotchFogCanyon</boolName>
     <sceneName>Fungus3_28</sceneName>
     <objectName>Shiny Item</objectName>
@@ -1974,7 +1974,7 @@
     <areaName>Fog_Canyon</areaName>
     <trinketNum>13</trinketNum>
   </item>
-  <item name="Charm_Notch-Colosseum">
+  <item name="凹槽-愚人斗兽场">
     <boolName>RandomizerMod.CharmNotchColosseum</boolName>
     <sceneName>Room_Colosseum_Bronze</sceneName>
     <objectName>Shiny Item</objectName>
@@ -1991,15 +1991,15 @@
     <areaName>Colosseum</areaName>
     <trinketNum>13</trinketNum>
   </item>
-  <item name="Charm_Notch-Grimm">
+  <item name="凹槽-格林">
     <boolName>RandomizerMod.CharmNotchGrimm</boolName>
     <sceneName>Grimm_Main_Tent</sceneName>
     <objectName>Shiny Item</objectName>
     <fsmName>Shiny Control</fsmName>
     <replace>false</replace>
-    <itemLogic>Grimmchild + BOSS</itemLogic>
-    <areaLogic>DIRTMOUTH + Grimmchild + BOSS</areaLogic>
-    <roomLogic>Grimm_Main_Tent[left1] + Grimmchild + BOSS</roomLogic>
+    <itemLogic>格林之子 + BOSS</itemLogic>
+    <areaLogic>DIRTMOUTH + 格林之子 + BOSS</areaLogic>
+    <roomLogic>Grimm_Main_Tent[left1] + 格林之子 + BOSS</roomLogic>
     <type>Trinket</type>
     <pool>Notch</pool>
     <nameKey>RANDOMIZER_NAME_CHARM_NOTCH</nameKey>
@@ -2012,7 +2012,7 @@
     <chestFsmName>Chest Control</chestFsmName>
   </item>
   <!--Pale Ore-->
-  <item name="Pale_Ore-Basin">
+  <item name="苍白矿石-古老盆地">
     <boolName>RandomizerMod.PaleOreBasin</boolName>
     <sceneName>Abyss_17</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -2029,7 +2029,7 @@
     <areaName>Ancient_Basin</areaName>
     <trinketNum>14</trinketNum>
   </item>
-  <item name="Pale_Ore-Crystal_Peak">
+  <item name="苍白矿石-水晶山峰">
     <boolName>RandomizerMod.PaleOreCrystalPeak</boolName>
     <sceneName>Mines_34</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -2046,7 +2046,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>14</trinketNum>
   </item>
-  <item name="Pale_Ore-Nosk">
+  <item name="苍白矿石-诺斯克">
     <boolName>RandomizerMod.PaleOreNosk</boolName>
     <sceneName>Deepnest_32</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -2063,7 +2063,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>14</trinketNum>
   </item>
-  <item name="Pale_Ore-Seer">
+  <item name="苍白矿石-先知">
     <boolName>RandomizerMod.PaleOreSeer</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -2082,7 +2082,7 @@
     <cost>300</cost>
     <costType>1</costType>
   </item>
-  <item name="Pale_Ore-Grubs">
+  <item name="苍白矿石-幼虫">
     <boolName>RandomizerMod.PaleOreGrubs</boolName>
     <sceneName>Crossroads_38</sceneName>
     <newShiny>true</newShiny>
@@ -2101,7 +2101,7 @@
     <cost>23</cost>
     <costType>3</costType>
   </item>
-  <item name="Pale_Ore-Colosseum">
+  <item name="苍白矿石-愚人斗兽场">
     <boolName>RandomizerMod.PaleOreColosseum</boolName>
     <sceneName>Room_Colosseum_Silver</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2119,7 +2119,7 @@
     <trinketNum>14</trinketNum>
   </item>
   <!--Geo Chests-->
-  <item name="200_Geo-False_Knight_Chest">
+  <item name="200吉欧-假骑士箱子">
     <boolName>falseKnightGeo</boolName>
     <sceneName>Crossroads_10</sceneName>
     <objectName>Chest</objectName>
@@ -2135,7 +2135,7 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>Forgotten_Crossroads</areaName>
   </item>
-  <item name="380_Geo-Soul_Master_Chest">
+  <item name="380吉欧-灵魂大师箱子">
     <boolName>soulMasterGeo</boolName>
     <sceneName>Ruins1_32</sceneName>
     <objectName>Chest</objectName>
@@ -2151,7 +2151,7 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>City_of_Tears</areaName>
   </item>
-  <item name="655_Geo-Watcher_Knights_Chest">
+  <item name="655吉欧-守望者骑士箱子">
     <boolName>watcherKnightsGeo</boolName>
     <sceneName>Ruins2_03</sceneName>
     <objectName>Chest</objectName>
@@ -2167,7 +2167,7 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>City_of_Tears</areaName>
   </item>
-  <item name="85_Geo-Greenpath_Chest">
+  <item name="85吉欧-苍绿之径箱子">
     <boolName>greenpathGeo</boolName>
     <sceneName>Fungus1_13</sceneName>
     <objectName>Chest</objectName>
@@ -2183,7 +2183,7 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>Greenpath</areaName>
   </item>
-  <item name="620_Geo-Mantis_Lords_Chest">
+  <item name="620吉欧-螳螂领主箱子">
     <boolName>mantisLordsGeo</boolName>
     <sceneName>Fungus2_31</sceneName>
     <objectName>Mantis Chest (2)</objectName>
@@ -2199,7 +2199,7 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>Fungal_Wastes</areaName>
   </item>
-  <item name="150_Geo-Resting_Grounds_Chest">
+  <item name="150吉欧-安息之地箱子">
     <boolName>restingGroundsGeo</boolName>
     <sceneName>RestingGrounds_10</sceneName>
     <objectName>Chest</objectName>
@@ -2215,14 +2215,14 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>Resting_Grounds</areaName>
   </item>
-  <item name="80_Geo-Crystal_Peak_Chest">
+  <item name="80吉欧-水晶山峰箱子">
     <boolName>crystalPeakGeo</boolName>
     <sceneName>Mines_37</sceneName>
     <objectName>Chest</objectName>
     <fsmName>Chest Control</fsmName>
-    <itemLogic>CRYSTALPEAK-I + (CLAW + ((Sprintmaster + Dashmaster) | DASH | SUPERDASH))</itemLogic>
-    <areaLogic>UPPERCRYSTALPEAK + CLAW + ((Sprintmaster + Dashmaster) | DASH | SUPERDASH)</areaLogic>
-    <roomLogic>CLAW + ((Mines_37[top1] + (DASH | SUPERDASH | (Sprintmaster + Dashmaster))) | Mines_37[bot1])</roomLogic>
+    <itemLogic>CRYSTALPEAK-I + (CLAW + ((飞毛腿 + 冲刺大师) | DASH | SUPERDASH))</itemLogic>
+    <areaLogic>UPPERCRYSTALPEAK + CLAW + ((飞毛腿 + 冲刺大师) | DASH | SUPERDASH)</areaLogic>
+    <roomLogic>CLAW + ((Mines_37[top1] + (DASH | SUPERDASH | (飞毛腿 + 冲刺大师))) | Mines_37[bot1])</roomLogic>
     <type>Geo</type>
     <pool>Geo</pool>
     <geo>80</geo>
@@ -2231,7 +2231,7 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>Crystal_Peak</areaName>
   </item>
-  <item name="160_Geo-Weavers_Den_Chest">
+  <item name="160吉欧-编织者巢穴箱子">
     <boolName>weaversDenGeo</boolName>
     <sceneName>Deepnest_45_v02</sceneName>
     <objectName>Chest</objectName>
@@ -2247,7 +2247,7 @@
     <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
     <areaName>Deepnest</areaName>
   </item>
-  <item name="Rancid_Egg-Sly">
+  <item name="腐臭蛋-斯莱">
     <boolName>RandomizerMod.RancidEggSly</boolName>
     <sceneName>Room_shop</sceneName>
     <objectName>Shop Menu</objectName>
@@ -2264,7 +2264,7 @@
     <notchCost></notchCost>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Grubs">
+  <item name="腐臭蛋-幼虫">
     <boolName>RandomizerMod.RancidEggGrubs</boolName>
     <sceneName>Crossroads_38</sceneName>
     <newShiny>true</newShiny>
@@ -2283,7 +2283,7 @@
     <cost>16</cost>
     <costType>3</costType>
   </item>
-  <item name="Rancid_Egg-Sheo">
+  <item name="腐臭蛋-席奥">
     <boolName>RandomizerMod.RancidEggSheo</boolName>
     <sceneName>Fungus1_15</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2300,7 +2300,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Fungal_Core">
+  <item name="腐臭蛋-真菌核心">
     <boolName>RandomizerMod.RancidEggFungalCore</boolName>
     <sceneName>Fungus2_29</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2317,7 +2317,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Queen's_Gardens">
+  <item name="腐臭蛋-王后花园">
     <boolName>RandomizerMod.RancidEggQueensGardens</boolName>
     <sceneName>Fungus3_34</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2333,7 +2333,7 @@
     <areaName>Queens_Gardens</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Blue_Lake">
+  <item name="腐臭蛋-蓝湖">
     <boolName>RandomizerMod.RancidEggBlueLake</boolName>
     <sceneName>Crossroads_50</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2349,7 +2349,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Crystal_Peak_Dive_Entrance">
+  <item name="腐臭蛋-水晶山峰下砸入口">
     <boolName>RandomizerMod.RancidEggCPDiveEntrance</boolName>
     <sceneName>Mines_01</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2365,7 +2365,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Crystal_Peak_Dark_Room">
+  <item name="腐臭蛋-水晶山峰暗室">
     <boolName>RandomizerMod.RancidEggCPDarkRoom</boolName>
     <sceneName>Mines_29</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2382,7 +2382,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Crystal_Peak_Tall_Room">
+  <item name="腐臭蛋-水晶山峰很高的房间">
     <boolName>RandomizerMod.RancidEggCPTallRoom</boolName>
     <sceneName>Mines_20</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2398,7 +2398,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-City_of_Tears_Left">
+  <item name="腐臭蛋-泪水之城左">
     <boolName>RandomizerMod.RancidEggCoTLeft</boolName>
     <sceneName>Ruins1_05c</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2415,7 +2415,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-City_of_Tears_Pleasure_House">
+  <item name="腐臭蛋-泪水之城欢乐之屋">
     <boolName>RandomizerMod.RancidEggCoTPleasureHouse</boolName>
     <sceneName>Ruins_Elevator</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2432,7 +2432,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Beast's_Den">
+  <item name="腐臭蛋-野兽巢穴">
     <boolName>RandomizerMod.RancidEggBeastsDen</boolName>
     <sceneName>Deepnest_Spider_Town</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2448,7 +2448,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Dark_Deepnest">
+  <item name="腐臭蛋-深邃巢穴">
     <boolName>RandomizerMod.RancidEggDarkDeepnest</boolName>
     <sceneName>Deepnest_39</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2464,7 +2464,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Weaver's_Den">
+  <item name="腐臭蛋-编织者巢穴">
     <boolName>RandomizerMod.RancidEggWeaversDen</boolName>
     <sceneName>Deepnest_45_v02</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2481,7 +2481,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Near_Quick_Slash">
+  <item name="腐臭蛋-靠近快劈">
     <boolName>RandomizerMod.RancidEggNearQuickSlash</boolName>
     <sceneName>Deepnest_East_14</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2497,7 +2497,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Upper_Kingdom's_Edge">
+  <item name="腐臭蛋-王国边缘上边">
     <boolName>RandomizerMod.RancidEggUpperKingdomsEdge</boolName>
     <sceneName>Deepnest_East_07</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -2514,7 +2514,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Waterways_East">
+  <item name="腐臭蛋-皇家水道右">
     <boolName>RandomizerMod.RancidEggWaterwaysEast</boolName>
     <sceneName>Waterways_07</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2530,7 +2530,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Waterways_Main">
+  <item name="腐臭蛋-皇家水道中">
     <boolName>RandomizerMod.RancidEggWaterwaysMain</boolName>
     <sceneName>Waterways_02</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2546,7 +2546,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Waterways_West_Bluggsac">
+  <item name="腐臭蛋-皇家水道西臭蛋口袋">
     <boolName>RandomizerMod.RancidEggWaterwaysWestBluggsac</boolName>
     <sceneName>Waterways_04</sceneName>
     <objectName>Egg Sac</objectName>
@@ -2562,7 +2562,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Rancid_Egg-Waterways_West_Pickup">
+  <item name="腐臭蛋-皇家水道西捡起的">
     <boolName>RandomizerMod.RancidEggWaterwaysWestPickup</boolName>
     <sceneName>Waterways_04b</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2579,7 +2579,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>11</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Cliffs">
+  <item name="漫游者日记-呼啸悬崖">
     <boolName>RandomizerMod.WanderersJournalCliffs</boolName>
     <sceneName>Cliffs_01</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -2596,7 +2596,7 @@
     <areaName>Howling_Cliffs</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Greenpath_Stag">
+  <item name="漫游者日记-苍绿之径车站">
     <boolName>RandomizerMod.WanderersJournalGreenpathStag</boolName>
     <sceneName>Fungus1_22</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2613,7 +2613,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Greenpath_Lower">
+  <item name="漫游者日记-苍绿之径下">
     <boolName>RandomizerMod.WanderersJournalGreenpathLower</boolName>
     <sceneName>Fungus1_11</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2630,7 +2630,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Fungal_Wastes_Thorns_Gauntlet">
+  <item name="漫游者日记-真菌荒地荆棘开门">
     <boolName>RandomizerMod.WanderersJournalFungalWastesThornsGauntlet</boolName>
     <sceneName>Fungus2_04</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2647,7 +2647,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Above_Mantis_Village">
+  <item name="漫游者日记-螳螂村上">
     <boolName>RandomizerMod.WanderersJournalAboveMantisVillage</boolName>
     <sceneName>Fungus2_17</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2664,7 +2664,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Crystal_Peak_Crawlers">
+  <item name="漫游者日记-水晶山峰水晶爬虫">
     <boolName>RandomizerMod.WanderersJournalCrystalPeakCrawlers</boolName>
     <sceneName>Mines_20</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -2681,7 +2681,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Resting_Grounds_Catacombs">
+  <item name="漫游者日记-安息之地棺材下">
     <boolName>RandomizerMod.WanderersJournalRestingGroundsCatacombs</boolName>
     <sceneName>RestingGrounds_10</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2698,7 +2698,7 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-King's_Station">
+  <item name="漫游者日记-国王驿站">
     <boolName>RandomizerMod.WanderersJournalKingsStation</boolName>
     <sceneName>Ruins2_05</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2715,7 +2715,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Pleasure_House">
+  <item name="漫游者日记-欢乐之屋">
     <boolName>RandomizerMod.WanderersJournalPleasureHouse</boolName>
     <sceneName>Ruins_Elevator</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -2732,7 +2732,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-City_Storerooms">
+  <item name="漫游者日记-城市仓库">
     <boolName>RandomizerMod.WanderersJournalCityStorerooms</boolName>
     <sceneName>Ruins1_28</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2749,7 +2749,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Ancient_Basin">
+  <item name="漫游者日记-古老盆地">
     <boolName>RandomizerMod.WanderersJournalAncientBasin</boolName>
     <sceneName>Abyss_02</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2766,7 +2766,7 @@
     <areaName>Ancient_Basin</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Kingdom's_Edge_Entrance">
+  <item name="漫游者日记-王国边缘入口">
     <boolName>RandomizerMod.WanderersJournalKingdomsEdgeEntrance</boolName>
     <sceneName>Deepnest_East_07</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2783,7 +2783,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Kingdom's_Edge_Camp">
+  <item name="漫游者日记-王国边缘营地">
     <boolName>RandomizerMod.WanderersJournalKingdomsEdgeCamp</boolName>
     <sceneName>Deepnest_East_13</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2800,7 +2800,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Wanderer's_Journal-Kingdom's_Edge_Requires_Dive">
+  <item name="漫游者日记-王国边缘需要下砸">
     <boolName>RandomizerMod.WanderersJournalKingdomsEdgeRequiresDive</boolName>
     <sceneName>Deepnest_East_18</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2817,7 +2817,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>1</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Crossroads_Well">
+  <item name="圣巢印章-十字路井">
     <boolName>RandomizerMod.HallownestSealCrossroadsWell</boolName>
     <sceneName>Crossroads_01</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2834,7 +2834,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Grubs">
+  <item name="圣巢印章-幼虫">
     <boolName>RandomizerMod.HallownestSealGrubs</boolName>
     <sceneName>Crossroads_38</sceneName>
     <newShiny>true</newShiny>
@@ -2853,15 +2853,15 @@
     <cost>23</cost>
     <costType>3</costType>
   </item>
-  <item name="Hallownest_Seal-Greenpath">
+  <item name="圣巢印章-苍绿之径">
     <boolName>RandomizerMod.HallownestSealGreenpath</boolName>
     <sceneName>Fungus1_10</sceneName>
     <objectName>Shiny Item</objectName>
     <fsmName>Shiny Control</fsmName>
     <replace>false</replace>
-    <itemLogic>GREENPATH-I + (ACID | (WINGS + AIRSTALL) | (DASH + (AIRSTALL | Dashmaster | WINGS)) | SUPERDASH)</itemLogic>
-    <areaLogic>GREENPATH + (ACID | (WINGS + AIRSTALL) | (DASH + (AIRSTALL | Dashmaster | WINGS)) | SUPERDASH)</areaLogic>
-    <roomLogic>(Fungus1_10[left1] | Fungus1_10[top1] | Fungus1_10[right1]) + (ACID | (WINGS + AIRSTALL) | (DASH + (AIRSTALL | Dashmaster | WINGS)) | SUPERDASH)</roomLogic>
+    <itemLogic>GREENPATH-I + (ACID | (WINGS + AIRSTALL) | (DASH + (AIRSTALL | 冲刺大师 | WINGS)) | SUPERDASH)</itemLogic>
+    <areaLogic>GREENPATH + (ACID | (WINGS + AIRSTALL) | (DASH + (AIRSTALL | 冲刺大师 | WINGS)) | SUPERDASH)</areaLogic>
+    <roomLogic>(Fungus1_10[left1] | Fungus1_10[top1] | Fungus1_10[right1]) + (ACID | (WINGS + AIRSTALL) | (DASH + (AIRSTALL | 冲刺大师 | WINGS)) | SUPERDASH)</roomLogic>
     <type>Trinket</type>
     <pool>Relic</pool>
     <nameKey>INV_NAME_TRINKET2</nameKey>
@@ -2870,7 +2870,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Fog_Canyon_West">
+  <item name="圣巢印章-雾之峡谷左">
     <boolName>RandomizerMod.HallownestSealFogCanyonWest</boolName>
     <sceneName>Fungus3_30</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2887,7 +2887,7 @@
     <areaName>Fog_Canyon</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Fog_Canyon_East">
+  <item name="圣巢印章-雾之峡谷右">
     <boolName>RandomizerMod.HallownestSealFogCanyonEast</boolName>
     <sceneName>Fungus3_26</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2904,7 +2904,7 @@
     <areaName>Fog_Canyon</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Queen's_Station">
+  <item name="圣巢印章-王后驿站">
     <boolName>RandomizerMod.HallownestSealQueensStation</boolName>
     <sceneName>Fungus2_34</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2921,7 +2921,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Fungal_Wastes_Sporgs">
+  <item name="圣巢印章-真菌荒地斯孢格">
     <boolName>RandomizerMod.HallownestSealFungalWastesSporgs</boolName>
     <sceneName>Fungus2_03</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2938,7 +2938,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Mantis_Lords">
+  <item name="圣巢印章-螳螂领主">
     <boolName>RandomizerMod.HallownestSealMantisLords</boolName>
     <sceneName>Fungus2_31</sceneName>
     <objectName>Shiny Item</objectName>
@@ -2958,7 +2958,7 @@
     <chestName>Mantis Chest (1)</chestName>
     <chestFsmName>Chest Control</chestFsmName>
   </item>
-  <item name="Hallownest_Seal-Seer">
+  <item name="圣巢印章-先知">
     <boolName>RandomizerMod.HallownestSealSeer</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -2977,7 +2977,7 @@
     <cost>100</cost>
     <costType>1</costType>
   </item>
-  <item name="Hallownest_Seal-Resting_Grounds_Catacombs">
+  <item name="圣巢印章-安息之地棺材下">
     <boolName>RandomizerMod.HallownestSealRestingGroundsCatacombs</boolName>
     <sceneName>RestingGrounds_10</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -2994,7 +2994,7 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-King's_Station">
+  <item name="圣巢印章-国王驿站">
     <boolName>RandomizerMod.HallownestSealKingsStation</boolName>
     <sceneName>Ruins2_08</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3011,7 +3011,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-City_Rafters">
+  <item name="圣巢印章-古董商左">
     <boolName>RandomizerMod.HallownestSealCityRafters</boolName>
     <sceneName>Ruins1_03</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3028,7 +3028,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Soul_Sanctum">
+  <item name="圣巢印章-灵魂圣所">
     <boolName>RandomizerMod.HallownestSealSoulSanctum</boolName>
     <sceneName>Ruins1_32</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3045,7 +3045,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Watcher_Knight">
+  <item name="圣巢印章-守望者骑士">
     <boolName>RandomizerMod.HallownestSealWatcherKnight</boolName>
     <sceneName>Ruins2_03</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3062,7 +3062,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Deepnest_By_Mantis_Lords">
+  <item name="圣巢印章-深邃巢穴螳螂领主左上">
     <boolName>RandomizerMod.HallownestSealDeepnestByMantisLords</boolName>
     <sceneName>Deepnest_16</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3079,7 +3079,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Beast's_Den">
+  <item name="圣巢印章-野兽巢穴">
     <boolName>RandomizerMod.HallownestSealBeastsDen</boolName>
     <sceneName>Deepnest_Spider_Town</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3096,7 +3096,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="Hallownest_Seal-Queen's_Gardens">
+  <item name="圣巢印章-王后花园">
     <boolName>RandomizerMod.HallownestSealQueensGardens</boolName>
     <sceneName>Fungus3_48</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3113,7 +3113,7 @@
     <areaName>Queens_Gardens</areaName>
     <trinketNum>2</trinketNum>
   </item>
-  <item name="King's_Idol-Grubs">
+  <item name="国王神像-幼虫">
     <boolName>RandomizerMod.KingsIdolGrubs</boolName>
     <sceneName>Crossroads_38</sceneName>
     <newShiny>true</newShiny>
@@ -3132,7 +3132,7 @@
     <cost>23</cost>
     <costType>3</costType>
   </item>
-  <item name="King's_Idol-Cliffs">
+  <item name="国王神像-呼啸悬崖">
     <boolName>RandomizerMod.KingsIdolCliffs</boolName>
     <sceneName>Cliffs_01</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3149,7 +3149,7 @@
     <areaName>Howling_Cliffs</areaName>
     <trinketNum>3</trinketNum>
   </item>
-  <item name="King's_Idol-Crystal_Peak">
+  <item name="国王神像-水晶山峰">
     <boolName>RandomizerMod.KingsIdolCrystalPeak</boolName>
     <sceneName>Mines_30</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -3166,7 +3166,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>3</trinketNum>
   </item>
-  <item name="King's_Idol-Glade_of_Hope">
+  <item name="国王神像-灵魂沼地">
     <boolName>RandomizerMod.KingsIdolGlade</boolName>
     <sceneName>RestingGrounds_08</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3183,7 +3183,7 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>3</trinketNum>
   </item>
-  <item name="King's_Idol-Dung_Defender">
+  <item name="国王神像-粪虫防御者">
     <boolName>RandomizerMod.KingsIdolDungDefender</boolName>
     <sceneName>Waterways_15</sceneName>
     <objectName>Shiny Item Stand</objectName>
@@ -3200,7 +3200,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>3</trinketNum>
   </item>
-  <item name="King's_Idol-Great_Hopper">
+  <item name="国王神像-大跳虫">
     <boolName>RandomizerMod.KingsIdolGreatHopper</boolName>
     <sceneName>Deepnest_East_08</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3217,7 +3217,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>3</trinketNum>
   </item>
-  <item name="King's_Idol-Pale_Lurker">
+  <item name="国王神像-苍白潜伏者">
     <boolName>RandomizerMod.KingsIdolPaleLurker</boolName>
     <sceneName>GG_Lurker</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3234,7 +3234,7 @@
     <areaName>Colosseum</areaName>
     <trinketNum>3</trinketNum>
   </item>
-  <item name="King's_Idol-Deepnest">
+  <item name="国王神像-深邃巢穴">
     <boolName>RandomizerMod.KingsIdolDeepnest</boolName>
     <sceneName>Deepnest_33</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3251,7 +3251,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>3</trinketNum>
   </item>
-  <item name="Arcane_Egg-Seer">
+  <item name="神秘蛋-先知">
     <boolName>RandomizerMod.ArcaneEggSeer</boolName>
     <sceneName>RestingGrounds_07</sceneName>
     <newShiny>true</newShiny>
@@ -3270,7 +3270,7 @@
     <cost>900</cost>
     <costType>1</costType>
   </item>
-  <item name="Arcane_Egg-Lifeblood_Core">
+  <item name="神秘蛋-生命血核心">
     <boolName>RandomizerMod.ArcaneEggLifebloodCore</boolName>
     <sceneName>Abyss_08</sceneName>
     <objectName>Shiny Item (1)</objectName>
@@ -3287,7 +3287,7 @@
     <areaName>Abyss</areaName>
     <trinketNum>4</trinketNum>
   </item>
-  <item name="Arcane_Egg-Shade_Cloak">
+  <item name="神秘蛋-暗影披风">
     <boolName>RandomizerMod.ArcaneEggShadeCloak</boolName>
     <sceneName>Abyss_10</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3304,7 +3304,7 @@
     <areaName>Abyss</areaName>
     <trinketNum>4</trinketNum>
   </item>
-  <item name="Arcane_Egg-Birthplace">
+  <item name="神秘蛋-出生地">
     <boolName>RandomizerMod.ArcaneEggBirthplace</boolName>
     <sceneName>Abyss_15</sceneName>
     <objectName>Shiny Item</objectName>
@@ -3321,7 +3321,7 @@
     <areaName>Abyss</areaName>
     <trinketNum>4</trinketNum>
   </item>
-  <item name="Whispering_Root-Crossroads">
+  <item name="低语之根-十字路">
     <boolName>RandomizerMod.WhisperingRootCrossroads</boolName>
     <sceneName>Crossroads_07</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3338,7 +3338,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Greenpath">
+  <item name="低语之根-苍绿之径">
     <boolName>RandomizerMod.WhisperingRootGreenpath</boolName>
     <sceneName>Fungus1_13</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3355,7 +3355,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Leg_Eater">
+  <item name="低语之根-食腿者">
     <boolName>RandomizerMod.WhisperingRootLegEater</boolName>
     <sceneName>Fungus2_33</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3372,7 +3372,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Mantis_Village">
+  <item name="低语之根-螳螂村">
     <boolName>RandomizerMod.WhisperingRootMantisVillage</boolName>
     <sceneName>Fungus2_17</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3389,7 +3389,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Deepnest">
+  <item name="低语之根-深邃巢穴">
     <boolName>RandomizerMod.WhisperingRootDeepnest</boolName>
     <sceneName>Deepnest_39</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3406,7 +3406,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Queens_Gardens">
+  <item name="低语之根-王后花园">
     <boolName>RandomizerMod.WhisperingRootQueensGardens</boolName>
     <sceneName>Fungus3_11</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3423,7 +3423,7 @@
     <areaName>Queens_Gardens</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Kingdoms_Edge">
+  <item name="低语之根-王国边缘">
     <boolName>RandomizerMod.WhisperingRootKingdomsEdge</boolName>
     <sceneName>Deepnest_East_07</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3440,7 +3440,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Waterways">
+  <item name="低语之根-皇家水道">
     <boolName>RandomizerMod.WhisperingRootWaterways</boolName>
     <sceneName>Abyss_01</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3457,7 +3457,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-City">
+  <item name="低语之根-泪水之城">
     <boolName>RandomizerMod.WhisperingRootCity</boolName>
     <sceneName>Ruins1_17</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3474,7 +3474,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Resting_Grounds">
+  <item name="低语之根-安息之地">
     <boolName>RandomizerMod.WhisperingRootRestingGrounds</boolName>
     <sceneName>RestingGrounds_05</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3491,7 +3491,7 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Spirits_Glade">
+  <item name="低语之根-灵魂沼地">
     <boolName>RandomizerMod.WhisperingRootSpiritsGlade</boolName>
     <sceneName>RestingGrounds_08[left1]</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3508,7 +3508,7 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Crystal_Peak">
+  <item name="低语之根-水晶山峰">
     <boolName>RandomizerMod.WhisperingRootCrystalPeak</boolName>
     <sceneName>Mines_23</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3525,7 +3525,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Howling_Cliffs">
+  <item name="低语之根-呼啸悬崖">
     <boolName>RandomizerMod.WhisperingRootHowlingCliffs</boolName>
     <sceneName>Cliffs_01</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3542,7 +3542,7 @@
     <areaName>Howling_Cliffs</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Whispering_Root-Ancestral_Mound">
+  <item name="低语之根-祖先山丘">
     <boolName>RandomizerMod.WhisperingRootAncestralMound</boolName>
     <sceneName>Crossroads_ShamanTemple</sceneName>
     <objectName>Dream Plant</objectName>
@@ -3559,7 +3559,7 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Elder_Hu">
+  <item name="胡长老">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3575,7 +3575,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Xero">
+  <item name="泽若">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3591,7 +3591,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Gorb">
+  <item name="戈布">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3607,7 +3607,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Marmu">
+  <item name="马尔穆">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3623,7 +3623,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="No_Eyes">
+  <item name="无眼">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3639,7 +3639,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Galien">
+  <item name="加利安">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3655,7 +3655,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Markoth">
+  <item name="马科斯">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3671,7 +3671,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Failed_Champion">
+  <item name="失败冠军">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3687,7 +3687,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Soul_Tyrant">
+  <item name="灵魂暴君">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3703,7 +3703,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Lost_Kin">
+  <item name="失落近亲">
     <boolName></boolName>
     <sceneName></sceneName>
     <objectName></objectName>
@@ -3719,7 +3719,7 @@
     <areaName></areaName>
     <trinketNum>24</trinketNum>
   </item>
-  <item name="Grub_Bottle-Crossroads_35">
+  <item name="幼虫瓶-十字路酸水">
     <boolName>RandomizerMod.GrubBottleCrossroads35</boolName>
     <sceneName>Crossroads_35</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3735,7 +3735,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Crossroads_05">
+  <item name="幼虫瓶-十字路井下房间">
     <boolName>RandomizerMod.GrubBottleCrossroads05</boolName>
     <sceneName>Crossroads_05</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3751,7 +3751,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Crossroads_03">
+  <item name="幼虫瓶-十字路车站外">
     <boolName>RandomizerMod.GrubBottleCrossroads03</boolName>
     <sceneName>Crossroads_03</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3767,7 +3767,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Crossroads_31">
+  <item name="幼虫瓶-十字路电车对面">
     <boolName>RandomizerMod.GrubBottleCrossroads31</boolName>
     <sceneName>Crossroads_31</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3783,7 +3783,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Crossroads_48">
+  <item name="幼虫瓶-十字路龙牙哥">
     <boolName>RandomizerMod.GrubBottleCrossroads48</boolName>
     <sceneName>Crossroads_48</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3799,7 +3799,7 @@
     <areaName>Forgotten_Crossroads</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus1_06">
+  <item name="幼虫瓶-苍绿之径地图师">
     <boolName>RandomizerMod.GrubBottleFungus106</boolName>
     <sceneName>Fungus1_06</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3815,7 +3815,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus1_07">
+  <item name="幼虫瓶-苍绿之径酸水">
     <boolName>RandomizerMod.GrubBottleFungus107</boolName>
     <sceneName>Fungus1_07</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3831,7 +3831,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus1_13">
+  <item name="幼虫瓶-苍绿之径草堆">
     <boolName>RandomizerMod.GrubBottleFungus113</boolName>
     <sceneName>Fungus1_13</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3847,7 +3847,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus1_21">
+  <item name="幼虫瓶-苍绿之径小姐姐">
     <boolName>RandomizerMod.GrubBottleFungus121</boolName>
     <sceneName>Fungus1_21</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3863,7 +3863,7 @@
     <areaName>Greenpath</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus3_47">
+  <item name="幼虫瓶-雾之峡谷教师">
     <boolName>RandomizerMod.GrubBottleFungus347</boolName>
     <sceneName>Fungus3_47</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3879,7 +3879,7 @@
     <areaName>Fog_Canyon</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus2_18">
+  <item name="幼虫瓶-真菌荒地捷径">
     <boolName>RandomizerMod.GrubBottleFungus218</boolName>
     <sceneName>Fungus2_18</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3895,7 +3895,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus2_20">
+  <item name="幼虫瓶-真菌荒地孢子">
     <boolName>RandomizerMod.GrubBottleFungus220</boolName>
     <sceneName>Fungus2_20</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3911,7 +3911,7 @@
     <areaName>Fungal_Wastes</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Deepnest_36">
+  <item name="幼虫瓶-深邃巢穴假虫">
     <boolName>RandomizerMod.GrubBottleDeepnest36</boolName>
     <sceneName>Deepnest_36</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3927,7 +3927,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Deepnest_31">
+  <item name="幼虫瓶-深邃巢穴诺斯克">
     <boolName>RandomizerMod.GrubBottleDeepnest31</boolName>
     <sceneName>Deepnest_31</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3943,7 +3943,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Deepnest_03">
+  <item name="幼虫瓶-深邃巢穴刺">
     <boolName>RandomizerMod.GrubBottleDeepnest03</boolName>
     <sceneName>Deepnest_03</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3959,7 +3959,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Deepnest_39">
+  <item name="幼虫瓶-深邃巢穴假地板">
     <boolName>RandomizerMod.GrubBottleDeepnest39</boolName>
     <sceneName>Deepnest_39</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3975,7 +3975,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Deepnest_Spider_Town">
+  <item name="幼虫瓶-深邃巢穴野兽">
     <boolName>RandomizerMod.GrubBottleDeepnestSpiderTown</boolName>
     <sceneName>Deepnest_Spider_Town</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -3991,7 +3991,7 @@
     <areaName>Deepnest</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Deepnest_East_14">
+  <item name="幼虫瓶-王国边缘快劈">
     <boolName>RandomizerMod.GrubBottleDeepnestEast14</boolName>
     <sceneName>Deepnest_East_14</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4007,7 +4007,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Deepnest_East_11">
+  <item name="幼虫瓶-王国边缘隐藏墙">
     <boolName>RandomizerMod.GrubBottleDeepnestEast11</boolName>
     <sceneName>Deepnest_East_11</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4023,7 +4023,7 @@
     <areaName>Kingdoms_Edge</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Hive_03">
+  <item name="幼虫瓶-蜂巢外">
     <boolName>RandomizerMod.GrubBottleHive03</boolName>
     <sceneName>Hive_03</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4039,7 +4039,7 @@
     <areaName>Hive</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Hive_04">
+  <item name="幼虫瓶-蜂巢内">
     <boolName>RandomizerMod.GrubBottleHive04</boolName>
     <sceneName>Hive_04</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4055,7 +4055,7 @@
     <areaName>Hive</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Abyss_19">
+  <item name="幼虫瓶-古老盆地残破容器">
     <boolName>RandomizerMod.GrubBottleAbyss19</boolName>
     <sceneName>Abyss_19</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4071,7 +4071,7 @@
     <areaName>Ancient_Basin</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Abyss_17">
+  <item name="幼虫瓶-古老盆地矿石">
     <boolName>RandomizerMod.GrubBottleAbyss17</boolName>
     <sceneName>Abyss_17</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4087,7 +4087,7 @@
     <areaName>Ancient_Basin</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Waterways_04">
+  <item name="幼虫瓶-皇家水道隐藏墙">
     <boolName>RandomizerMod.GrubBottleWaterways04</boolName>
     <sceneName>Waterways_04</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4103,7 +4103,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Waterways_13">
+  <item name="幼虫瓶-皇家水道伊思玛">
     <boolName>RandomizerMod.GrubBottleWaterways13</boolName>
     <sceneName>Waterways_13</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4119,7 +4119,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Waterways_14">
+  <item name="幼虫瓶-皇家水道长酸湖上">
     <boolName>RandomizerMod.GrubBottleWaterways14</boolName>
     <sceneName>Waterways_14</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4135,7 +4135,7 @@
     <areaName>Royal_Waterways</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins1_05">
+  <item name="幼虫瓶-泪水之城电梯边">
     <boolName>RandomizerMod.GrubBottleRuins105</boolName>
     <sceneName>Ruins1_05</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4151,7 +4151,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins1_32">
+  <item name="幼虫瓶-泪水之城大师">
     <boolName>RandomizerMod.GrubBottleRuins132</boolName>
     <sceneName>Ruins1_32</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4167,7 +4167,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins2_03">
+  <item name="幼虫瓶-泪水之城守望">
     <boolName>RandomizerMod.GrubBottleRuins203</boolName>
     <sceneName>Ruins2_03</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4183,7 +4183,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins_House_01">
+  <item name="幼虫瓶-泪水之城盾哥">
     <boolName>RandomizerMod.GrubBottleRuinsHouse01</boolName>
     <sceneName>Ruins_House_01</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4199,7 +4199,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins2_07">
+  <item name="幼虫瓶-泪水之城自爆鸟">
     <boolName>RandomizerMod.GrubBottleRuins207</boolName>
     <sceneName>Ruins2_07</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4215,7 +4215,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-RestingGrounds_10">
+  <item name="幼虫瓶-安息之地">
     <boolName>RandomizerMod.GrubBottleRestingGrounds_10</boolName>
     <sceneName>RestingGrounds_10</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4231,13 +4231,13 @@
     <areaName>Resting_Grounds</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Mines_04">
+  <item name="幼虫瓶-水晶山峰摸黑前">
     <boolName>RandomizerMod.GrubBottleMines04</boolName>
     <sceneName>Mines_04</sceneName>
     <objectName>Grub Bottle</objectName>
     <replace>true</replace>
-    <itemLogic>UPPERCRYSTALPEAK-I + (DASH | SUPERDASH | (Dashmaster + Sprintmaster))</itemLogic>
-    <areaLogic>UPPERCRYSTALPEAK + (DASH | SUPERDASH | (Dashmaster + Sprintmaster))</areaLogic>
+    <itemLogic>UPPERCRYSTALPEAK-I + (DASH | SUPERDASH | (冲刺大师 + 飞毛腿))</itemLogic>
+    <areaLogic>UPPERCRYSTALPEAK + (DASH | SUPERDASH | (冲刺大师 + 飞毛腿))</areaLogic>
     <roomLogic>Mines_04[top1]</roomLogic>
     <type>Trinket</type>
     <pool>Grub</pool>
@@ -4247,7 +4247,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Mines_35">
+  <item name="幼虫瓶-水晶山峰黑砸">
     <boolName>RandomizerMod.GrubBottleMines35</boolName>
     <sceneName>Mines_35</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4263,7 +4263,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Mines_03">
+  <item name="幼虫瓶-水晶山峰钻刺">
     <boolName>RandomizerMod.GrubBottleMines03</boolName>
     <sceneName>Mines_03</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4279,7 +4279,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Mines_16">
+  <item name="幼虫瓶-水晶山峰假虫">
     <boolName>RandomizerMod.GrubBottleMines16</boolName>
     <sceneName>Mines_16</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4295,7 +4295,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Mines_19">
+  <item name="幼虫瓶-水晶山峰机关">
     <boolName>RandomizerMod.GrubBottleMines19</boolName>
     <sceneName>Mines_19</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4311,7 +4311,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Mines_31">
+  <item name="幼虫瓶-水晶山峰超冲">
     <boolName>RandomizerMod.GrubBottleMines31</boolName>
     <sceneName>Mines_31</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4327,7 +4327,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Mines_24">
+  <item name="幼虫瓶-水晶山峰矿石">
     <boolName>RandomizerMod.GrubBottleMines24</boolName>
     <sceneName>Mines_24</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4343,7 +4343,7 @@
     <areaName>Crystal_Peak</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus1_28">
+  <item name="幼虫瓶-呼啸悬崖巴德尔上">
     <boolName>RandomizerMod.GrubBottleFungus128</boolName>
     <sceneName>Fungus1_28</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4359,7 +4359,7 @@
     <areaName>Howling_Cliffs</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus3_10">
+  <item name="幼虫瓶-王后花园关门大战上">
     <boolName>RandomizerMod.GrubBottleFungus310</boolName>
     <sceneName>Fungus3_10</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4375,7 +4375,7 @@
     <areaName>Queens_Gardens</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus3_48">
+  <item name="幼虫瓶-王后花园王后边">
     <boolName>RandomizerMod.GrubBottleFungus348</boolName>
     <sceneName>Fungus3_48</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4391,7 +4391,7 @@
     <areaName>Queens_Gardens</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Fungus3_22">
+  <item name="幼虫瓶-王后花园苍绿边">
     <boolName>RandomizerMod.GrubBottleFungus322</boolName>
     <sceneName>Fungus3_22</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4407,7 +4407,7 @@
     <areaName>Queens_Gardens</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins2_11">
+  <item name="幼虫瓶-泪水之城收藏家1">
     <boolName>RandomizerMod.GrubBottleRuins211</boolName>
     <sceneName>Ruins2_11</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4423,7 +4423,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins2_11(1)">
+  <item name="幼虫瓶-泪水之城收藏家2">
     <boolName>RandomizerMod.GrubBottleRuins2111</boolName>
     <sceneName>Ruins2_11</sceneName>
     <objectName>Grub Bottle</objectName>
@@ -4439,7 +4439,7 @@
     <areaName>City_of_Tears</areaName>
     <trinketNum>25</trinketNum>
   </item>
-  <item name="Grub_Bottle-Ruins2_11(2)">
+  <item name="幼虫瓶-泪水之城收藏家3">
     <boolName>RandomizerMod.GrubBottleRuins2112</boolName>
     <sceneName>Ruins2_11</sceneName>
     <objectName>Grub Bottle</objectName>
